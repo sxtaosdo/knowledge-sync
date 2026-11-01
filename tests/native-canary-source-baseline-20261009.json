@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "local": {
+    "schema_version": 1,
+    "mode": "dry-run",
+    "repo_id": "shidai3",
+    "channel": "local",
+    "channel_namespace": "shidai3/local",
+    "source_ref": "HEAD",
+    "source_commit": "1b6fd01462bd0ff32a5e05499824a9b72e037d48",
+    "baseline_commit": null,
+    "includes": [
+      "AGENTS.md",
+      "AI_CONTEXT.md"
+    ],
+    "excludes": [],
+    "allow_unmarked": false,
+    "worktree_files_read": false,
+    "remote_refresh_performed": false,
+    "official_ref_freshness": null,
+    "kb_write_performed": false,
+    "model_calls_performed": false,
+    "documents": [
+      {
+        "title": "AGENTS",
+        "document_state": "Accepted",
+        "path": "AGENTS.md",
+        "repo_id": "shidai3",
+        "channel": "local",
+        "source_key": "shidai3:local:AGENTS.md",
+        "source_commit": "1b6fd01462bd0ff32a5e05499824a9b72e037d48",
+        "parent_commit": "1b6fd01462bd0ff32a5e05499824a9b72e037d48",
+        "source_repo_id": "shidai3",
+        "source_path": "AGENTS.md",
+        "pin_chain": [],
+        "source_blob_sha": "2ad8e6f098a5e99ce130ea5fbad381082a57c26f",
+        "size_bytes": 8088
+      },
+      {
+        "title": "Shidai3 AI Context",
+        "document_state": "Accepted",
+        "path": "AI_CONTEXT.md",
+        "repo_id": "shidai3",
+        "channel": "local",
+        "source_key": "shidai3:local:AI_CONTEXT.md",
+        "source_commit": "1b6fd01462bd0ff32a5e05499824a9b72e037d48",
+        "parent_commit": "1b6fd01462bd0ff32a5e05499824a9b72e037d48",
+        "source_repo_id": "shidai3",
+        "source_path": "AI_CONTEXT.md",
+        "pin_chain": [],
+        "source_blob_sha": "c4f7144fdb15973c6aeb17c68ef3144d9378fadf",
+        "size_bytes": 3100
+      }
+    ],
+    "excluded": [],
+    "gitlink_pins": [],
+    "gitlink_cache_reads": [],
+    "unread_gitlinks": [],
+    "provenance_changes": [],
+    "changes": [
+      {
+        "action": "add",
+        "path": "AGENTS.md"
+      },
+      {
+        "action": "add",
+        "path": "AI_CONTEXT.md"
+      }
+    ],
+    "manifest_sha256": "b5db21674a33599052960a8fc0284387e505090311eec76ea9dcec936d68bb3e"
+  },
+  "official": {
+    "schema_version": 1,
+    "mode": "dry-run",
+    "repo_id": "shidai3",
+    "channel": "official",
+    "channel_namespace": "shidai3/official",
+    "source_ref": "refs/remotes/origin/main",
+    "source_commit": "1b6fd01462bd0ff32a5e05499824a9b72e037d48",
+    "baseline_commit": null,
+    "includes": [
+      "AGENTS.md",
+      "AI_CONTEXT.md"
+    ],
+    "excludes": [],
+    "allow_unmarked": false,
+    "worktree_files_read": false,
+    "remote_refresh_performed": false,
+    "official_ref_freshness": "unknown_cached_ref",
+    "kb_write_performed": false,
+    "model_calls_performed": false,
+    "documents": [
+      {
+        "title": "AGENTS",
+        "document_state": "Accepted",
+        "path": "AGENTS.md",
+        "repo_id": "shidai3",
+        "channel": "official",
+        "source_key": "shidai3:official:AGENTS.md",
+        "source_commit": "1b6fd01462bd0ff32a5e05499824a9b72e037d48",
+        "parent_commit": "1b6fd01462bd0ff32a5e05499824a9b72e037d48",
+        "source_repo_id": "shidai3",
+        "source_path": "AGENTS.md",
+        "pin_chain": [],
+        "source_blob_sha": "2ad8e6f098a5e99ce130ea5fbad381082a57c26f",
+        "size_bytes": 8088
+      },
+      {
+        "title": "Shidai3 AI Context",
+        "document_state": "Accepted",
+        "path": "AI_CONTEXT.md",
+        "repo_id": "shidai3",
+        "channel": "official",
+        "source_key": "shidai3:official:AI_CONTEXT.md",
+        "source_commit": "1b6fd01462bd0ff32a5e05499824a9b72e037d48",
+        "parent_commit": "1b6fd01462bd0ff32a5e05499824a9b72e037d48",
+        "source_repo_id": "shidai3",
+        "source_path": "AI_CONTEXT.md",
+        "pin_chain": [],
+        "source_blob_sha": "c4f7144fdb15973c6aeb17c68ef3144d9378fadf",
+        "size_bytes": 3100
+      }
+    ],
+    "excluded": [],
+    "gitlink_pins": [],
+    "gitlink_cache_reads": [],
+    "unread_gitlinks": [],
+    "provenance_changes": [],
+    "changes": [
+      {
+        "action": "add",
+        "path": "AGENTS.md"
+      },
+      {
+        "action": "add",
+        "path": "AI_CONTEXT.md"
+      }
+    ],
+    "manifest_sha256": "fd1922e2e043bbab596b7ad167de95c55fede39ac7e05b97ef5513d282f0cf69"
+  },
+  "runtimeHealth": "PermissionError10013",
+  "readerMetadata": "READER_METADATA_UNAVAILABLE",
+  "runtimeDBVisited": false,
+  "modelCalls": false,
+  "networkImports": false
+}

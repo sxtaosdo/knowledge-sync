@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "checkedUTC": "2026-10-09T04:33:05Z",
+  "state": "official_api_metadata_contract_verified_index_attestation_unavailable_production_disabled",
+  "testResult": {
+    "exitCode": 0,
+    "command": [
+      "C:\\Users\\33272\\miniconda3\\python.exe",
+      "-X",
+      "utf8",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "tests": 93,
+    "skipped": 1,
+    "unittestDurationSeconds": 179.905,
+    "testLogSHA256": "fa1b27c93a17ba790e5799a4ffd676ae96433fc3a7d8fd8c78f41f2b1397dbc4",
+    "astFiles": 16,
+    "startedUTC": "2026-10-09T04:25:17Z",
+    "finishedUTC": "2026-10-09T04:28:18Z",
+    "sourceHashes": {
+      "companion_api.py": "ee3280d81123070dde6a325ac2e774506a5ee0a0a9628c775fb71625a7255807",
+      "index_verifier.py": "805f218605f2bd05bcac4c02f43c3c73fe762ccdffaf3894564f6c76430ed6e8",
+      "knowledge_sync.py": "93850e2de63d5eebcf5a6f2d794f261d17c6f45b6a700a4568026a8e913c12b4",
+      "official_api_observer.py": "0be771c926f726e12a9f59009d5a569f6b74336d4e9cb3b3a2fac1edda9e3d51",
+      "offline_writer.py": "66241eca7434090223429108a518c32f7d6a9e2b83c4b4e4240758ae47c93b04",
+      "scheduler.py": "f64af8780f62367438d570fc1826260eb502823a0c91ef4041d7193f83d73129",
+      "scripts/git_version.py": "2c3e4c3e752c917ddb8665a3a24245141a209349fe7fb1d338ef3ac79e3a4094",
+      "source_registry.py": "09ad819c5c320ff95eec35d3544866ba53e9a0a12cac1d780b67e2355d003cb5",
+      "sync_service.py": "555794aea49681a3eb5f81d2e86ff2676441b52bc004220dbee295c7db95c595",
+      "sync_worker.py": "26bbf569972fd4c79b350792ae9ce3faa6389c180ff84141db78c9adbb9bd595",
+      "tests/test_dry_run.py": "d288560c658206e134d4d2d536602e2d79b36bcc3740503d5c84a8d44be83afc",
+      "tests/test_official_api_observer.py": "e7174f4201da64abe341410abf1883d3fe0267e6a1895e3bb3065dee0bb36d44",
+      "tests/test_pins_index.py": "65a13d015ad4319157f45a1460830196b569b5c5767fb617b28ac352a7228a21",
+      "tests/test_sync.py": "def38f948a93ed2e549bba208eb392fc580a9ab3d9007adb3c91124679e4447f",
+      "tests/test_version_guard.py": "ed841d3a76956a88753a7b6b34258c460ada3463fb06e86760632c9587eb25d0",
+      "weknora_adapter.py": "f0d93ac006f66c66e587da26cf9626f73f8af21dc0996550ebfff4609ae9f3cf"
+    }
+  },
+  "passed": 92,
+  "skipped": 1,
+  "newObserverTests": 12,
+  "newVersionGuardTests": 4,
+  "priorTests": 77,
+  "log": "tests/api-observer-tests-20261009.log",
+  "actualStatus": {
+    "status": {
+      "schemaVersion": 1,
+      "ok": true,
+      "data": {
+        "configured": false,
+        "approved": false,
+        "enabled": false,
+        "writerReady": false,
+        "schedulerEnabled": false,
+        "systemAutostartRegistered": false,
+        "sources": [],
+        "sourceId": null,
+        "channel": null,
+        "repoId": null,
+        "targetSHA": null,
+        "completedSHA": null,
+        "freshness": "disabled",
+        "pending": 0,
+        "errors": [
+          {
+            "code": "POLICY_NOT_APPROVED",
+            "message": "No source is enrolled."
+          }
+        ]
+      },
+      "error": null
+    },
+    "scheduler-status": {
+      "schemaVersion": 1,
+      "ok": true,
+      "data": {
+        "configured": false,
+        "approved": false,
+        "enabled": false,
+        "writerReady": false,
+        "schedulerEnabled": false,
+        "systemAutostartRegistered": false,
+        "sources": [],
+        "sourceId": null,
+        "channel": null,
+        "repoId": null,
+        "targetSHA": null,
+        "completedSHA": null,
+        "freshness": "disabled",
+        "pending": 0,
+        "errors": [
+          {
+            "code": "POLICY_NOT_APPROVED",
+            "message": "No source is enrolled."
+          }
+        ]
+      },
+      "error": null
+    }
+  },
+  "sourceEvidence": {
+    "checkout": "D:\\services\\weknora\\build\\upstream-v0.8.2",
+    "upstreamCommit": "3e8b0bfc80b845b2d4b2ed683994748741450a97",
+    "commitAndFiveFilesCleanVerifiedBy": "/root/code_mapper",
+    "primaryGitCheck": "Permission denied; no workaround",
+    "files": {
+      "internal/router/routes_knowledge.go": "cd1b96909e77f076a5981eb1cd31d7eddf3cf59611e3e0dada77738bea6511f0",
+      "internal/handler/chunk.go": "37f6178f1c9b815536a416e012e452d1d730e2b815586a1f07aa5c18c89e4e72",
+      "internal/handler/knowledge.go": "2285b9cd20482314f0a8c657e4eb94aeaaa41b5b3e73c4c9b6685857edf6046c",
+      "internal/types/chunk.go": "c69fbd3338e040359b103b88863361a7f5a5b6b5047231da612573191a742bec",
+      "internal/application/service/chunk.go": "6410d696c1343066b406123d5d89678609f98fdd7c172fb89cab4ed24348381d"
+    },
+    "documentRoute": "GET /api/v1/knowledge/:id; routes_knowledge.go:105, handler/knowledge.go:600-631",
+    "chunkRoute": "GET /api/v1/chunks/:knowledge_id?page=&page_size=; routes_knowledge.go:35, handler/chunk.go:99-151",
+    "nativeTextDefault": "handler/chunk.go:127-138; default only text chunks, not all retrieval-store inventory",
+    "chunkStatus": "types/chunk.go:133-135 and service/chunk.go index synchronization; metadata status is not a complete inventory proof",
+    "missing": [
+      "actual keyword/vector index ID/hash inventory",
+      "knowledge deletion task terminal GET attestation"
+    ]
+  },
+  "behavior": {
+    "knownGETRoutesOnly": true,
+    "injectedTransport": true,
+    "independentMetadataObservation": true,
+    "paginationScopeAndDetectableRaceValidated": true,
+    "readyNeverEmitted": true,
+    "productionReady": false,
+    "parseCompletedAndChunkReadyCannotAdvanceCheckpoint": true,
+    "deletion404NotCompletion": true,
+    "requestsMadeToRealService": 0,
+    "credentialsRead": false,
+    "credentialsCreated": false,
+    "realContentImported": false,
+    "modelCalls": false,
+    "serviceDatabaseModified": false,
+    "historicalTasksResumed": false
+  },
+  "ownerDecision": {
+    "repo": "D:/code/shidai3",
+    "localRef": "HEAD",
+    "officialRef": "refs/remotes/origin/main",
+    "observedParentSHA": "1b6fd01462bd0ff32a5e05499824a9b72e037d48",
+    "includes": [
+      "AGENTS.md",
+      "AI_CONTEXT.md"
+    ],
+    "acceptedDocumentsChecked": true,
+    "sourceImportApproved": false,
+    "allowUnmarked": false,
+    "suggestedLocalKB": "shidai3-dev-canary",
+    "suggestedOfficialKB": "shidai3-official-canary",
+    "kbIds": null,
+    "tenantCreationApprovalPending": true,
+    "processing": "keyword-only, no vector or model derivatives/egress; requires canary proof",
+    "minWriterCapabilities": [
+      "ingest",
+      "retrieve"
+    ],
+    "fullAccess": false,
+    "oneKBPerWriter": true,
+    "retrieveID3IsNotWriter": true,
+    "existingSuitableWriterNotVerified": true,
+    "newWriterSuggestion": "Two restricted identities, unless Owner supplies already-equivalent scoped local identities",
+    "maxDeletes": 0,
+    "maxDeleteFraction": 0,
+    "firstRun": "manual once",
+    "suggestedIntervalSeconds": 300,
+    "systemAutostart": false,
+    "options": "owner-options.md"
+  },
+  "versionGuard": {
+    "ownerApprovedVersion": "0.1.0.1",
+    "versionInitialized": true,
+    "hooksInstalled": true,
+    "template": "D:/code/shidai3/scripts/git_version.py",
+    "contract": "P0002/09-governance/engineering-standards/git.md",
+    "allLocalRefsCounter": true,
+    "unbornIndexBumpAndAgentChecksPassed": true,
+    "actualHookIntegration": "skipped: NtCreateDirectoryObject 0xC0000022; no hook bypass or ACL change",
+    "checkpointState": "captured before normal commit attempt",
+    "checkpointReceipt": "C:\\Users\\33272\\AppData\\Local\\Temp\\knowledge-sync-api-observer-20261009T041259Z\\checkpoint-receipt.json"
+  },
+  "review": {
+    "reviewer": "/root/pin_index_review",
+    "sourceMapper": "/root/code_mapper",
+    "remainingP1P2": 0,
+    "method": "static read-only incremental review; effective hard isolation unverified",
+    "ocrMode": "Delegation Mode selection/rules plus host review; no external model invoked",
+    "ocrPreviewSHA256": "11a1785f7d9e8928ca5c0d236e69829ac358ada8cbc04f30bf18d0463b3cc7a9",
+    "ocrRulesSHA256": "d3a809eb8d893340dac6b025d90940dc698d04328b172a6ab8a526ce263b3ea6",
+    "defaultExcludedTestsExplicitlyReviewed": true
+  },
+  "preservation": {
+    "prechangeArchive": "C:\\Users\\33272\\AppData\\Local\\Temp\\knowledge-sync-api-observer-20261009T041259Z\\prechange.zip",
+    "prechangeArchiveSHA256": "7a3e68a1cd30d2e1d55f58d1735bf33dce89b5f43e79522593437f7253e2bef5",
+    "archivedFileCount": 24,
+    "archivedFilesMatch": true,
+    "oldReceiptsAndLogsUnchanged": {
+      "validation-evidence.json": true,
+      "tests/development-evidence-20261009.json": true,
+      "tests/development-tests-20261009.log": true,
+      "tests/verification-20261009.json": true,
+      "tests/verification-20261009.log": true
+    },
+    "originalSeventeenSourceSnapshotRetained": true,
+    "originalNineteenArchiveRetained": true,
+    "companionOrGamesModified": false,
+    "parentPinModified": false,
+    "pushed": false,
+    "tagged": false
+  },
+  "artifactHashes": {
+    "companion_api.py": "ee3280d81123070dde6a325ac2e774506a5ee0a0a9628c775fb71625a7255807",
+    "index_verifier.py": "805f218605f2bd05bcac4c02f43c3c73fe762ccdffaf3894564f6c76430ed6e8",
+    "knowledge_sync.py": "93850e2de63d5eebcf5a6f2d794f261d17c6f45b6a700a4568026a8e913c12b4",
+    "official_api_observer.py": "0be771c926f726e12a9f59009d5a569f6b74336d4e9cb3b3a2fac1edda9e3d51",
+    "offline_writer.py": "66241eca7434090223429108a518c32f7d6a9e2b83c4b4e4240758ae47c93b04",
+    "scheduler.py": "f64af8780f62367438d570fc1826260eb502823a0c91ef4041d7193f83d73129",
+    "scripts/git_version.py": "2c3e4c3e752c917ddb8665a3a24245141a209349fe7fb1d338ef3ac79e3a4094",
+    "source_registry.py": "09ad819c5c320ff95eec35d3544866ba53e9a0a12cac1d780b67e2355d003cb5",
+    "sync_service.py": "555794aea49681a3eb5f81d2e86ff2676441b52bc004220dbee295c7db95c595",
+    "sync_worker.py": "26bbf569972fd4c79b350792ae9ce3faa6389c180ff84141db78c9adbb9bd595",
+    "tests/test_dry_run.py": "d288560c658206e134d4d2d536602e2d79b36bcc3740503d5c84a8d44be83afc",
+    "tests/test_official_api_observer.py": "e7174f4201da64abe341410abf1883d3fe0267e6a1895e3bb3065dee0bb36d44",
+    "tests/test_pins_index.py": "65a13d015ad4319157f45a1460830196b569b5c5767fb617b28ac352a7228a21",
+    "tests/test_sync.py": "def38f948a93ed2e549bba208eb392fc580a9ab3d9007adb3c91124679e4447f",
+    "tests/test_version_guard.py": "ed841d3a76956a88753a7b6b34258c460ada3463fb06e86760632c9587eb25d0",
+    "weknora_adapter.py": "f0d93ac006f66c66e587da26cf9626f73f8af21dc0996550ebfff4609ae9f3cf",
+    "README.md": "e1a97a184d014f63d930ecb7e0fb3167452d3e1eb1e548c7fe795e4322d2e77b",
+    "implementation-plan.md": "b67091d9aedfa0edc22004011041035c073da4bff73bda628fea8283abbfc156",
+    "owner-options.md": "3b15725fa5ff3830db19eab492c2608683ed4a764daeeda3db168e4db8356860",
+    "protocol-v1.json": "616bc8788610387b0fd0a39f96ce4024abf9be56ae1facc895e2c898c05ad9de",
+    "VERSION": "d426f5cc18c05199297e07e1e660e54b67c3a9da73b1e174639f9dbe59b3978e",
+    ".gitattributes": "6fda4653ef71808abc2eb5e88b7cf1ec9912e800d3bad13d3b4f46abc8d6f7ea",
+    ".githooks/pre-commit": "9a8192b571e5234ae4b4c4feb54d3d2bc96105565e147c41ef4e33fb84b3be5d",
+    ".githooks/commit-msg": "af86a06a064aa6629ceb67a820da09aa2dc2ef4e4d6affd1f1d06a901d8a0277",
+    "tests/api-observer-tests-20261009.log": "fa1b27c93a17ba790e5799a4ffd676ae96433fc3a7d8fd8c78f41f2b1397dbc4"
+  }
+}

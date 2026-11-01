@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "checkedUTC": "2026-10-09T07:27:52.219782+00:00",
+  "package": "C:\\Users\\33272\\AppData\\Local\\Temp\\knowledge-sync-native-canary-20261009\\knowledge-sync-native-canary-candidate.zip",
+  "packageSHA256": "ae29a5fbfb3741229c1d31f0292efdc8efdcfedfdb8565d2333a9b6b43668d96",
+  "bytes": 121293692,
+  "zipCRCVerified": true,
+  "binarySHA256": "6c46eeba2ddd7ac7c6e2fd96f93d551c4839f47c64255369d83cee68068977dc",
+  "sourceManifestSHA256": "dbda6a1bc625ccdb809e86baa2beaf42c15299fe209d8f2bb071fec79c1321dc",
+  "evidenceSHA256": "5d03c9e7f78ecd0f8637491a700f8771da63efb10ced04868103cf80bee4ab0d",
+  "contains": "public isolated source snapshot, final overlay, five candidate binaries, synthetic fixture, client code/tests/logs/protocol/Owner handoff",
+  "excluded": [
+    "credentials/DPAPI/recovery plaintext",
+    "runtime DB/files/ledgers",
+    "sources.json",
+    "fake policy fixture IDs",
+    "Go cache and module cache",
+    "original .git",
+    "existing Owner startup secrets"
+  ],
+  "gitCommit": false,
+  "runtimeBackup": false,
+  "deployed": false
+}

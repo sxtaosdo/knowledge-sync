@@ -1,0 +1,20 @@
+{
+  "name": "REPLACE_WITH_shidai3-dev-canary_OR_shidai3-official-canary",
+  "type": "document",
+  "is_temporary": false,
+  "embedding_model_id": "",
+  "summary_model_id": "",
+  "vector_store_id": null,
+  "vlm_config": {"enabled": false, "model_id": ""},
+  "asr_config": {"enabled": false, "model_id": ""},
+  "extract_config": {"enabled": false},
+  "question_generation_config": {"enabled": false},
+  "auto_tag_config": {"enabled": false, "model_id": ""},
+  "profile_config": null,
+  "indexing_strategy": {
+    "vector_enabled": false,
+    "keyword_enabled": true,
+    "wiki_enabled": false,
+    "graph_enabled": false
+  }
+}

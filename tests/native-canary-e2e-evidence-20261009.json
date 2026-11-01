@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "ok": true,
+  "fixtureExecutableSHA256": "7a2ac198c032e6db9ae61d9f4649b161c04144393c5ce65f34e327f2a4b9a56b",
+  "synthetic": true,
+  "actualNativeSQLiteFTS": true,
+  "productionUsable": false,
+  "sourceTracks": [
+    {
+      "channel": "local",
+      "completedSHA": "1111111111111111111111111111111111111111",
+      "reloadedCompletedSHA": "1111111111111111111111111111111111111111",
+      "receiptCount": 2,
+      "allReceiptsSynthetic": true,
+      "ftsKeywordMatches": 2,
+      "transitions": [
+        "unknown",
+        "awaiting_metadata",
+        "awaiting_index",
+        "done",
+        "awaiting_metadata",
+        "awaiting_index",
+        "done"
+      ],
+      "pending": 0,
+      "queuedCount": 0,
+      "indexedDocuments": 0,
+      "receiptHashes": [
+        "e88f7bbf5f48c79c2c28329f99c2179bb10e0826165af56498810f6df9057f1a",
+        "cee1aa4fa9241f594ce82fd25bb6b83c05cd90fdccce80deafb0c4ceb1348e19"
+      ],
+      "backendInventoryHashes": [
+        "6829d301f0efe426c0901cf79b96d56f8646797fe1f5c50c6da913234928fa70",
+        "57658c11405db30c1df432f8c420a7a999ccc780fd3bb9e1f40553e906c3a03b"
+      ]
+    },
+    {
+      "channel": "official",
+      "completedSHA": "3333333333333333333333333333333333333333",
+      "reloadedCompletedSHA": "3333333333333333333333333333333333333333",
+      "receiptCount": 2,
+      "allReceiptsSynthetic": true,
+      "ftsKeywordMatches": 2,
+      "transitions": [
+        "awaiting_metadata",
+        "awaiting_index",
+        "done",
+        "awaiting_metadata",
+        "awaiting_index",
+        "done"
+      ],
+      "pending": 0,
+      "queuedCount": 0,
+      "indexedDocuments": 0,
+      "receiptHashes": [
+        "c0f1cbd4ed6b3d45b3bea3d8a94d662d85fc75d76d2b93bb5882b956be0f7054",
+        "622455ef42727215b239188bfc3ed3d0692e2aa2077fee05195506eb938268ee"
+      ],
+      "backendInventoryHashes": [
+        "b3f358ad36cdfdfcb55b71e37fa6241797e4db9393da9bf8bee2fbbd07a71dcc",
+        "70e03accb2a5d8370b12c5c624cb5e7b422a8795ed2e763f5b87bd25d45436ae"
+      ]
+    }
+  ],
+  "postOperations": 4,
+  "lostPostReplyRecoveredWithoutDuplicate": true,
+  "sockets": 0,
+  "modelCalls": 0,
+  "credentialsAccessed": false,
+  "realServiceDBAccessed": false,
+  "realDocumentsImported": false,
+  "schedulerRegistered": false,
+  "completedAt": 1791528664.4365115
+}

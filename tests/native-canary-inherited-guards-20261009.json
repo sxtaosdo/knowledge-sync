@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "inheritedPriorGuardOverlay": "D:\\services\\weknora\\build\\reader-recovery-v0.8.2",
+  "files": [
+    {
+      "path": "internal/handler/reader_identity.go",
+      "sha256": "cc13063ff8148fa2ed2eb021afdc0ccf065b2f3385a2c885b90b89e730faec25",
+      "source": "D:\\services\\weknora\\build\\reader-recovery-v0.8.2\\internal\\handler\\reader_identity.go"
+    },
+    {
+      "path": "internal/handler/reader_identity_test.go",
+      "sha256": "0d03a706a7ac05837a22d1cbae4ac3d33d57e7055f4280e71f5505f82d7bafa3",
+      "source": "D:\\services\\weknora\\build\\reader-recovery-v0.8.2\\internal\\handler\\reader_identity_test.go"
+    },
+    {
+      "path": "internal/handler/recovery_key_list_test.go",
+      "sha256": "847e810da7865d7a3545e35db5016ffbac7ed133a7d1befaa12b7276f7bd2f7d",
+      "source": "D:\\services\\weknora\\build\\reader-recovery-v0.8.2\\internal\\handler\\recovery_key_list_test.go"
+    },
+    {
+      "path": "internal/handler/tenant.go",
+      "sha256": "c472a487dcbf856ed5482c606bfccbbc5d0c4d80f3e64aa6e100444d56d7fb74",
+      "source": "D:\\services\\weknora\\build\\reader-recovery-v0.8.2\\internal\\handler\\tenant.go"
+    },
+    {
+      "path": "internal/mcpserver/tools_retrieve.go",
+      "sha256": "e0cc0adab9053965cc3099fc2686256df61ed7e49eec3e8d3d04954f41e40e3f",
+      "source": "D:\\services\\weknora\\build\\reader-recovery-v0.8.2\\internal\\mcpserver\\tools_retrieve.go"
+    },
+    {
+      "path": "internal/middleware/api_key_gate.go",
+      "sha256": "331d8c9138b648c023878f95b2d67b9791aeb5abc59d576e5e5ccbd5297508ac",
+      "source": "D:\\services\\weknora\\build\\reader-recovery-v0.8.2\\internal\\middleware\\api_key_gate.go"
+    },
+    {
+      "path": "internal/middleware/auth.go",
+      "sha256": "74854f90676d06ff62f36739330f2591eabe1e31d2beda273912233a992deebe",
+      "source": "D:\\services\\weknora\\build\\reader-recovery-v0.8.2\\internal\\middleware\\auth.go"
+    },
+    {
+      "path": "internal/middleware/reader_identity_gate_test.go",
+      "sha256": "77bb556a9bfa5fb3e128c1ebb7d8cca6b28fbc3248e75b8eae13ace41669a9c8",
+      "source": "D:\\services\\weknora\\build\\reader-recovery-v0.8.2\\internal\\middleware\\reader_identity_gate_test.go"
+    },
+    {
+      "path": "internal/router/reader_identity_route_test.go",
+      "sha256": "d5dbf8057fcd96d5a641f5298aa2713068688803e9e77f4c8048a9e68fda56e1",
+      "source": "D:\\services\\weknora\\build\\reader-recovery-v0.8.2\\internal\\router\\reader_identity_route_test.go"
+    },
+    {
+      "path": "internal/router/router_static_test.go",
+      "sha256": "123dcaf40fc62bbe15318a11ccda0c715b7f9d920e56a5cd792e361652276328",
+      "source": "D:\\services\\weknora\\build\\reader-recovery-v0.8.2\\internal\\router\\router_static_test.go"
+    },
+    {
+      "path": "internal/router/routes_auth_tenant.go",
+      "sha256": "b775ab61a2736482f525904981445f6be89d1099e32e9164f52f8488c9cf9689",
+      "source": "D:\\services\\weknora\\build\\reader-recovery-v0.8.2\\internal\\router\\routes_auth_tenant.go"
+    },
+    {
+      "path": "internal/router/static.go",
+      "sha256": "9e4a7111bd3ba3d8b973369ece39f003310286615e0e2d5a438d566fa1ac8470",
+      "source": "D:\\services\\weknora\\build\\reader-recovery-v0.8.2\\internal\\router\\static.go"
+    },
+    {
+      "path": "internal/types/reader_identity_scope_test.go",
+      "sha256": "06c458c63bc7d1b54ec55f4c20591329f1f4beb2b266ec79b00179b63ce0f8fc",
+      "source": "D:\\services\\weknora\\build\\reader-recovery-v0.8.2\\internal\\types\\reader_identity_scope_test.go"
+    },
+    {
+      "path": "internal/types/search.go",
+      "sha256": "b1296995d112c11d28e5af324b135c0079a428fd5106114631686978d7dc5ea1",
+      "source": "D:\\services\\weknora\\build\\reader-recovery-v0.8.2\\internal\\types\\search.go"
+    },
+    {
+      "path": "internal/types/tenant_api_key.go",
+      "sha256": "10613782094fa993bab46a0bf736fe3c7d89e4e462f778f44015ded33f2a1307",
+      "source": "D:\\services\\weknora\\build\\reader-recovery-v0.8.2\\internal\\types\\tenant_api_key.go"
+    },
+    {
+      "path": "internal/agent/tools/keyword_guard_test.go",
+      "sha256": "8d9c208594fbbafa1651f8c67c36466e5e574d61517b4c00fdd7f7d1350782b9",
+      "source": "D:\\services\\weknora\\build\\reader-recovery-v0.8.2\\internal\\agent\\tools\\keyword_guard_test.go"
+    },
+    {
+      "path": "internal/agent/tools/search_knowledge.go",
+      "sha256": "ee9630414404a66a7ca5aebb619f0b305c0e91ac1aab463f10e19209515e7c69",
+      "source": "D:\\services\\weknora\\build\\reader-recovery-v0.8.2\\internal\\agent\\tools\\search_knowledge.go"
+    },
+    {
+      "path": "internal/application/repository/recovery_key_list_test.go",
+      "sha256": "594d5b2e99756afeafb9ad229927828f704b1e64fbbcd663594863434d27ec6d",
+      "source": "D:\\services\\weknora\\build\\reader-recovery-v0.8.2\\internal\\application\\repository\\recovery_key_list_test.go"
+    },
+    {
+      "path": "internal/application/repository/tenant_api_key.go",
+      "sha256": "1abe229b8c1a7e568f0b0cf20319c1f62be77f059239cff570b38f21961d04ac",
+      "source": "D:\\services\\weknora\\build\\reader-recovery-v0.8.2\\internal\\application\\repository\\tenant_api_key.go"
+    },
+    {
+      "path": "internal/application/service/knowledgebase_keyword_guard.go",
+      "sha256": "b688c375dfc835bfdefdd29f797c6a1e248db184b92b27f2557f308456d94887",
+      "source": "D:\\services\\weknora\\build\\reader-recovery-v0.8.2\\internal\\application\\service\\knowledgebase_keyword_guard.go"
+    },
+    {
+      "path": "internal/application/service/knowledgebase_keyword_guard_test.go",
+      "sha256": "2b27a581f39bf51d802bea8b4ae0f212f9a850cdd61dcb7f476720ac294758a9",
+      "source": "D:\\services\\weknora\\build\\reader-recovery-v0.8.2\\internal\\application\\service\\knowledgebase_keyword_guard_test.go"
+    },
+    {
+      "path": "internal/application/service/knowledgebase_search.go",
+      "sha256": "c15c6b97603d3b72d83a5f89efbce6f75b1ada5ee594f22c5471ba497a8f6257",
+      "source": "D:\\services\\weknora\\build\\reader-recovery-v0.8.2\\internal\\application\\service\\knowledgebase_search.go"
+    },
+    {
+      "path": "internal/application/repository/retriever/sqlite/keyword_repair_plan_test.go",
+      "sha256": "88bf46f60436bf71544488d310d10e2cf6fa2ac31860f20249d071f33de0d720",
+      "source": "D:\\services\\weknora\\build\\reader-recovery-v0.8.2\\internal\\application\\repository\\retriever\\sqlite\\keyword_repair_plan_test.go"
+    },
+    {
+      "path": "internal/application/repository/retriever/sqlite/repository.go",
+      "sha256": "a496ad5c0dbc86ba92ac37857b5bc1002a85a8e133fb6bd1c138820b2cef38d2",
+      "source": "D:\\services\\weknora\\build\\reader-recovery-v0.8.2\\internal\\application\\repository\\retriever\\sqlite\\repository.go"
+    },
+    {
+      "path": "internal/application/service/retriever/keywords_vector_hybrid_indexer.go",
+      "sha256": "e7ea5fb40fc9df6f388c6550c58fa713627c5dfb71789409ebe9e44a2e0f9d6d",
+      "source": "D:\\services\\weknora\\build\\reader-recovery-v0.8.2\\internal\\application\\service\\retriever\\keywords_vector_hybrid_indexer.go"
+    }
+  ],
+  "copiedWithoutModification": true,
+  "runtimeMaintenancePerformed": false,
+  "historicalJobsTouched": false,
+  "originalSourceGitVerification": "permission_denied_route_stopped",
+  "baselineCopyOnly": true,
+  "subsequentCanaryChanges": [
+    "internal/application/repository/retriever/sqlite/repository.go"
+  ]
+}

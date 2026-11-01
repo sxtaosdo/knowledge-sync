@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "checkedUTC": "2026-10-09T06:11:23.031072+00:00",
+  "state": "sqlite_keyword_slice_offline_verified_native_producer_and_production_not_deployed",
+  "testResult": {
+    "tests": 25,
+    "passed": 25,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "success": true,
+    "durationSeconds": 115.672,
+    "startedUTC": "2026-10-09T06:09:27.358476+00:00",
+    "sourceHashes": {
+      "sqlite_keyword_observer.py": "8b631b88d8cdbfb3d944e38c8847583c7ae9e936b0fcf988c3539598d93fbf89",
+      "index_verifier.py": "17ff4634b46a297bfc35797ee9f1658a1fd28935f9d2f41c145006ad66c108ce",
+      "tests/test_sqlite_keyword_observer.py": "e5f747a512fbc845a1f4968da84749ef87487f7ed836189cf82b404abf0bfddd",
+      "tests/sqlite_keyword_receipts.sql": "0c93bcfc11f55614edc53ea1de8bd1584566d47efd617f13defcf1006e0507f3"
+    },
+    "sourceChangesDuringTests": [],
+    "astFiles": 18,
+    "log": "tests/sqlite-keyword-tests-20261009.log",
+    "logSHA256": "7fb8e4b4c92f070dd0bc110bc5d24dc5507ccff06fae4cbc90c6864b91bea0f1"
+  },
+  "sqliteVersion": "3.45.3",
+  "realFTSInSyntheticDB": true,
+  "fixtureDirectory": "Temporary keyword-canary-* under this project tests; no denied runtime DB",
+  "gitInvokedByTests": false,
+  "socketRequests": 0,
+  "modelCalls": 0,
+  "credentialsRead": false,
+  "runtimeDBAccessed": false,
+  "nativeServiceModified": false,
+  "newIdentitiesCreated": false,
+  "productionReady": false,
+  "actualStatus": {
+    "schemaVersion": 1,
+    "ok": true,
+    "data": {
+      "configured": false,
+      "approved": false,
+      "enabled": false,
+      "writerReady": false,
+      "schedulerEnabled": false,
+      "systemAutostartRegistered": false,
+      "sources": [],
+      "sourceId": null,
+      "channel": null,
+      "repoId": null,
+      "targetSHA": null,
+      "completedSHA": null,
+      "freshness": "disabled",
+      "pending": 0,
+      "errors": [
+        {
+          "code": "POLICY_NOT_APPROVED",
+          "message": "No source is enrolled."
+        }
+      ]
+    },
+    "error": null
+  },
+  "actualSchedulerStatus": {
+    "schemaVersion": 1,
+    "ok": true,
+    "data": {
+      "configured": false,
+      "approved": false,
+      "enabled": false,
+      "writerReady": false,
+      "schedulerEnabled": false,
+      "systemAutostartRegistered": false,
+      "sources": [],
+      "sourceId": null,
+      "channel": null,
+      "repoId": null,
+      "targetSHA": null,
+      "completedSHA": null,
+      "freshness": "disabled",
+      "pending": 0,
+      "errors": [
+        {
+          "code": "POLICY_NOT_APPROVED",
+          "message": "No source is enrolled."
+        }
+      ]
+    },
+    "error": null
+  },
+  "acceptance": [
+    "contentless FTS term/column/offset and all metadata column postings",
+    "title/header/body, version/revision, complete current and historical rowid ownership",
+    "missing, corrupt, orphan, foreign or unsupported index blocks checkpoint",
+    "actual SQL error and interrupted transaction leave no success marker",
+    "two-document whole-batch checkpoint waits for each real synthetic FTS receipt and persists across reopen",
+    "client recovery polls without duplicate POST or DELETE",
+    "exact durable delete task and physical index absence before delete checkpoint",
+    "optional backendInventoryHash protected by receiptHash; legacy receipt compatible"
+  ],
+  "roleEvidence": {
+    "codeMapper": "/root/code_mapper",
+    "reviewer": "/root/pin_index_review",
+    "roleMode": "ordinary prompt role simulation using actual TOML duties",
+    "nativePresetOrModelActivationClaimed": false,
+    "hardReadonlyIsolation": "unverified"
+  },
+  "limits": {
+    "requiredIndexes": [
+      "keyword"
+    ],
+    "maxActiveRows": 128,
+    "maxOwnedRowsAndHistory": 512,
+    "alphabet": "ASCII, U+4E00-U+9FFF and explicit punctuation; other Unicode rejected"
+  },
+  "remaining": [
+    "Owner-approved native receipt/vocab migration and keyword transactional producer/operation-task-generation association",
+    "approved service build/restart/rollback and zero-model canary processing",
+    "approved source/two target KBs/scoped writer/egress/deletion/schedule policy",
+    "live reader availability still blocked in current delegated environment; no loopback or DB retry in this slice"
+  ],
+  "old93TestEvidenceReusedAsHistoricalOnly": true,
+  "gitIndexVerification": {
+    "format": 2,
+    "entries": 34,
+    "pathsMatchOriginal34": true,
+    "preparedBlobMismatches": [],
+    "checksumValid": true,
+    "indexSHA256": "d047708e3c35f60f974b3c5a2f54012a9eac3a15af5e13e10dadf08dfd253e03",
+    "gitCommandInvoked": false
+  },
+  "priorPreparedZipSHA256": "566ae0c9508c9a6b7576551f6cd0cfdc1fa0eeedf526e102aa0073107aa3e076",
+  "priorPreparedZipUnchanged": true,
+  "reviewResult": {
+    "concreteP1P2": 0,
+    "mode": "static ordinary prompt role duties; no native preset/model/hard-isolation claim",
+    "ocrMode": "Delegation explicit rule resolution + host source review; preview and Git checkpoint retry not run",
+    "ocrExplicitPaths": 7,
+    "reviewedPaths": [
+      "sqlite_keyword_observer.py",
+      "index_verifier.py",
+      "tests/test_sqlite_keyword_observer.py",
+      "tests/sqlite_keyword_receipts.sql",
+      "README.md",
+      "implementation-plan.md",
+      "protocol-v1.json"
+    ],
+    "skippedPaths": []
+  },
+  "artifactHashes": {
+    "README.md": "c4d407160135582ad70073d98692ea9cd42265f0eb250a11891103782e8e1620",
+    "implementation-plan.md": "7700710a88be615cfef3bc41ebe1b6815ef3d7533ffe598c9703d6b03ce9631a",
+    "protocol-v1.json": "41cb4fb6c05dcc193c3a30e52d9ec55ecd652ce2e1e05d59bd5e62dd1a52acb1"
+  }
+}

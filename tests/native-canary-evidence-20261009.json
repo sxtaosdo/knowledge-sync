@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "checkedUTC": "2026-10-09T07:27:41.019853+00:00",
+  "state": "offline_native_candidate_verified_live_trial_blocked",
+  "productionAcceptance": false,
+  "runtimeDeployed": false,
+  "nativeCandidateBuild": true,
+  "nativeBinarySHA256": "6c46eeba2ddd7ac7c6e2fd96f93d551c4839f47c64255369d83cee68068977dc",
+  "sourceManifest": "service-candidate/source-manifest.json",
+  "sourceManifestSHA256": "dbda6a1bc625ccdb809e86baa2beaf42c15299fe209d8f2bb071fec79c1321dc",
+  "syntheticNativeE2E": "tests/native-canary-e2e-evidence-20261009.json",
+  "syntheticNativeE2ESHA256": "be71a7d88e7ce78d7e2625b878a35c02c8159a756f4f8509834a159e3ca753b7",
+  "actualNativeSQLiteFTS": true,
+  "synthetic": true,
+  "boundedSyntheticPOSTs": 4,
+  "dualTracks": true,
+  "lostReplyRecoveredWithoutDuplicate": true,
+  "completedSHAReloaded": true,
+  "pythonValidation": {
+    "nativeClientTestsPassed": 6,
+    "unicodeKeywordTestsPassed": 25,
+    "serviceWorkspaceTestsPassed": 13,
+    "astFiles": 22,
+    "jsonFiles": 6
+  },
+  "goValidation": {
+    "allSynccanaryTests": true,
+    "targetedHandlerRouterContainer": true,
+    "inheritedReaderRecoveryKeywordStaticTests": true,
+    "existingConstructorQueryOnlyAndEightIncompatibilities": true
+  },
+  "unicode": "tests/go-unicode15-evidence-20261009.json",
+  "sourceBaseline": "tests/native-canary-source-baseline-20261009.json",
+  "sourcePins": {
+    "local": "1b6fd01462bd0ff32a5e05499824a9b72e037d48",
+    "officialCached": "1b6fd01462bd0ff32a5e05499824a9b72e037d48",
+    "remoteLatest": "unknown_cached_ref",
+    "dirtyContentRead": false
+  },
+  "review": {
+    "reviewer": "/root/pin_index_review",
+    "architecture": "/root/pin_index_architecture",
+    "remainingP1P2": 0,
+    "kind": "static read-only scoped review plus actual synthetic tests",
+    "nativeRolePresetModelAndHardIsolation": "unverified"
+  },
+  "ocr": {
+    "mode": "Delegation rule selection and host review",
+    "externalModelInvoked": false,
+    "previewNotRun": "would require denied/unborn Git checkpoint route",
+    "log": "tests/native-canary-ocr-delegation-20261009.log"
+  },
+  "stoppedRoutes": [
+    {
+      "route": "anonymous supported 127.0.0.1:8081/health",
+      "result": "PermissionError WinError10013 errno13",
+      "retryOrBypass": false
+    },
+    {
+      "route": "ReaderMetadataGuard.py --metadata-only",
+      "exitCode": 1,
+      "result": "READER_METADATA_UNAVAILABLE",
+      "secretRead": false,
+      "retryOrBypass": false
+    },
+    {
+      "route": "original service source Git -C rev-parse/status",
+      "result": "Permission denied",
+      "retryOrBypass": false
+    },
+    {
+      "route": "unrelated sandbox test selected by broad Reader regexp",
+      "result": "external DNS api.e2b.app unavailable; failed test recorded, excluded from exact authorized canary/guard selection",
+      "retryOfExternalDNS": false
+    },
+    {
+      "route": "original Python ServiceTests default Package TEMP fixtures",
+      "result": "permission denied; independent fresh workspace fixtures passed, target/ACL untouched"
+    }
+  ],
+  "runtime": {
+    "dbAccessed": false,
+    "realKBsCreated": false,
+    "credentialsRead": false,
+    "realContentImported": false,
+    "backupPerformed": false,
+    "serviceRestarted": false,
+    "writerEnabled": false,
+    "schedulerEnabled": false,
+    "systemAutostartRegistered": false,
+    "modelsInvoked": 0,
+    "supportedLiveReaderReverified": false,
+    "visibleEmptyProcessListProvesStopped": false
+  },
+  "preservation": {
+    "historicalDocuments": 1647,
+    "historicalPending": 1493,
+    "historicalCountsLiveReverified": false,
+    "legacyDisabledEndpoint": "8f9d7d6c-cec1-4017-b4a2-ed648f372182",
+    "legacyRowsModified": false,
+    "priorStagedCount": 34,
+    "indexSHA256": "d047708e3c35f60f974b3c5a2f54012a9eac3a15af5e13e10dadf08dfd253e03",
+    "priorIndexIdentical": true,
+    "archives": {
+      "preparedCheckpoint": {
+        "path": "C:/Users/33272/AppData/Local/Temp/knowledge-sync-api-observer-20261009T041259Z/prepared-checkpoint.zip",
+        "sha256": "566ae0c9508c9a6b7576551f6cd0cfdc1fa0eeedf526e102aa0073107aa3e076",
+        "unchanged": true
+      },
+      "sqliteKeywordSlice": {
+        "path": "C:/Users/33272/AppData/Local/Temp/knowledge-sync-sqlite-keyword-20261009T055017Z/sqlite-keyword-slice.zip",
+        "sha256": "1b4b018461bf82070bf1218c78c13040769a69111403c3e691959bc3af2b60ef",
+        "unchanged": true
+      },
+      "beforeNativeCandidate": {
+        "path": "C:\\Users\\33272\\AppData\\Local\\Temp\\knowledge-sync-native-canary-20261009\\before-native-candidate.zip",
+        "sha256": "189e784ba175092360eb3d20cc45673c8c1c21ea5944e118d9148bbdf0cd556f",
+        "unchanged": true
+      }
+    }
+  },
+  "git": {
+    "projectHead": null,
+    "unborn": true,
+    "version": "0.1.0.1",
+    "commitCreated": false,
+    "commitRetry": false,
+    "hookBypass": false,
+    "pushed": false,
+    "tagged": false,
+    "parentPinModified": false
+  },
+  "logs": {
+    "native-canary-build-20261009.log": "3759ffee3f3627484db930db22014ffc69f7e878444c2c4c941b09b96cd6a786",
+    "native-canary-client-tests-20261009.log": "47ae2f8a3210763d2518fdcdd87f0b4eee4ea0ea39797a9a5260a85a7209b1a1",
+    "sqlite-keyword-unicode15-tests-20261009.log": "8abe5e1b8dc8d29339f02eb7b9d3c42691e775ac2bdd3a75e62de32df1ea7d79",
+    "native-canary-service-workspace-tests-20261009.log": "a9254c09e18bb3589ce9721e82cd98c8141e6da0d84605c8770cda65c2ee96e5",
+    "native-canary-ocr-delegation-20261009.log": "09911349d2d08b42383bd9930af652a42c1dbc156b76d15ddcec4d1283e2b1a5",
+    "native-canary-guard-broad-selection-failed-20261009.log": "d712f5b673f4ea5b1cdc1f8a3ccbfd6ff51b6022e8ff61d43bb3a674e93b930c"
+  },
+  "handoff": "service-candidate/Owner-Canary-Handoff.md",
+  "remaining": [
+    "Owner supported runtime baseline and consistent backup",
+    "two new exact KB IDs and Owner local scoped credentials",
+    "supported short restart and one real bounded manual dual-track acceptance with official CLI keyword retrieval",
+    "future recurring native protocol extension and separate schedule approval/runtime verification"
+  ]
+}

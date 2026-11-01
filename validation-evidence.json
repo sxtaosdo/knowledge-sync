@@ -1,0 +1,277 @@
+{
+  "schema_version": 1,
+  "status": "code-mock-verified-production-disabled",
+  "completed_utc": "2026-10-06T09:57:41.250703+00:00",
+  "technology": {
+    "python": "3.12.9",
+    "git": "2.53.0.windows.2",
+    "third_party_python_dependencies": []
+  },
+  "scope": {
+    "real_business_or_personal_documents_scanned": false,
+    "weknora_writes": false,
+    "model_calls": false,
+    "remote_git_fetch": false,
+    "watcher_or_hook_installed": false,
+    "credentials_read_or_created": false
+  },
+  "git_delivery": {
+    "independent_local_repository": true,
+    "commit_created": false,
+    "remote_configured": false,
+    "push_performed": false,
+    "initial_owner_version_pending": true
+  },
+  "prior_dry_run_validation": {
+    "completed_utc": "2026-10-06T06:20:31.997313+00:00",
+    "tests_passed": 13
+  },
+  "tests": {
+    "passed": 50,
+    "failed": 0,
+    "duration_seconds": 41.592,
+    "sync_tests": 37,
+    "dry_run_tests": 13,
+    "log": "C:\\Users\\33272\\AppData\\Local\\Temp\\weknora-keyword-guard-20261006\\sync-module-final-tests.log",
+    "log_sha256": "f2a8de96daf4bf9698b08909b0b09065f464ef7149f9a7101b0cdcd436270a62",
+    "proofs": [
+      "dirty-and-untracked-worktree-excluded",
+      "local-and-cached-official-identity-separated",
+      "local-and-official-parent-gitlink-not-child-HEAD",
+      "full-tree-diff-recovers-skipped-hook-events-and-multiple-authors",
+      "commit-and-blob-replace-disabled",
+      "missing-promisor-object-fails-with-zero-loopback-remote-requests",
+      "documented-CLI-UTF8-metadata-without-body",
+      "exclusions-symlink-path-ref-baseline-boundaries",
+      "rename-modify-delete-proposal-revert",
+      "repeatable-manifest-digest",
+      "draft-metadata-publish-order-with-durable-operation-states",
+      "lost-create-and-publish-results-never-blindly-replayed",
+      "ownership-physical-delete-proof-and-delete-thresholds",
+      "lease-expiry-crash-recovery-checkpoint-index-confirmation",
+      "cancel-during-ownership-metadata-reconcile-and-known-rejection",
+      "live-registry-revocation-before-credential-access-and-transport",
+      "resident-worker-reloads-registry-before-ticks",
+      "strict-source-only-UI-JSON-and-queue-only-sync-once",
+      "fake-and-missing-index-verifier-never-production-ready"
+    ]
+  },
+  "ocr": {
+    "version": "1.12.12",
+    "mode": "delegation",
+    "shared_rule": "D:/code/shidai3/.opencodereview/rule.json",
+    "total_files": 17,
+    "reviewable_files": 15,
+    "default_excluded_files": 2,
+    "reviewed_files": 17,
+    "skipped_files": 0,
+    "coverage_rate": 1.0,
+    "default_excluded_tests_reviewed_separately": true,
+    "preview": "C:\\Users\\33272\\AppData\\Local\\Temp\\weknora-keyword-guard-20261006\\ocr-sync-final-preview.json",
+    "preview_sha256": "acacf0ec14954152545688e60b3c887730972b1b953b6d27e23035e7c830c09d",
+    "resolved_rules": "C:\\Users\\33272\\AppData\\Local\\Temp\\weknora-keyword-guard-20261006\\ocr-sync-final-rules.json",
+    "resolved_rules_sha256": "ba57e2541702810942a602cdf24deb5f9e49f24f222f8fca8cc872e0a62d3bb3",
+    "host_review": "source and document review; generated evidence checked for scope and consistency",
+    "findings_remaining": []
+  },
+  "reviewer": {
+    "role": "reviewer",
+    "task": "/root/restore_reviewer",
+    "read_only_declared": true,
+    "hard_permission_isolation": "not-verified",
+    "result": "P1/P2 and cancellation recovery follow-up closed; no new blocking finding",
+    "review_scope": "functional boundary and six initial plus two follow-up deterministic regression tests"
+  },
+  "limitations": [
+    "No real source, target KB or writer credentials enrolled; writer/scheduler/network remain disabled",
+    "Production index attestation is not wired; completed/chunk count alone cannot advance a production checkpoint",
+    "No real canary writes, index/delete/provider/egress/backup acceptance",
+    "Cached official ref freshness remains unknown; no implicit fetch",
+    "Gitlink SHAs listed only; child documents not recursively scanned",
+    "Software unversioned and uncommitted pending Owner three-part version; no push",
+    "The three D:/services/weknora/cli handoff files are installed after direct Owner authorization; 10 installed synthetic checks passed, zero real requests; actual key creation/authentication remains Owner-local and unvalidated"
+  ],
+  "files": {
+    ".gitignore": "0513e890b0c31bf11264affaf00fdc7e6409de5d86e04a7dc1e100deb94c031a",
+    "README.md": "0562bfe95eb67c5388dc41e2896ffcc9baf832b6cbba3f658fcb4650a19b7ee5",
+    "companion_api.py": "b3faad39599e60e10ad3079b2e5ed0c9e81d70482d09a23d288f93d775b6c4fe",
+    "implementation-plan.md": "2c76aeddbe49a98b68cb4fba47020bc2749dfd9bba33beff13b2d06efa8f881d",
+    "knowledge_sync.py": "6b0d77528a0afd9c969e7625c6690518473744f6e74ecf52a0f771f3a9386fe1",
+    "offline_writer.py": "7bc55a047d097a51f7e57e70d65ec4cb5db2f8d8d8d28249d182552b7362cfd3",
+    "phase-handoff.json": "413918a63e7e969b34f61aaebeaa8072f98676e6f38ac5cd2e735829a6746fd9",
+    "protocol-v1.json": "00c7e9817e7a7424b2f87f34fb876abaeb522abc108c10095eb93f08a8817b7f",
+    "scheduler.py": "f64af8780f62367438d570fc1826260eb502823a0c91ef4041d7193f83d73129",
+    "source_registry.py": "1e2edc8e807de39673ba91de952b743a3a9cf98ffb0755df9c5c91aa9c23a189",
+    "sources.example.json": "c6917c067151f17eea999bc6c6b747ddc7a01628bee5419bfd922cba2a073aad",
+    "sync_service.py": "ff0cffb06ddf5d1b1fe7babff54a069bc93735c4ae62cee1aeff62b3bda8ea27",
+    "sync_worker.py": "26bbf569972fd4c79b350792ae9ce3faa6389c180ff84141db78c9adbb9bd595",
+    "tests/test_dry_run.py": "d288560c658206e134d4d2d536602e2d79b36bcc3740503d5c84a8d44be83afc",
+    "tests/test_sync.py": "279141f2121a0271eca99c07bbc050203dd592b64db19842056dbe15b5444ae7",
+    "weknora_adapter.py": "1aca136a0d45c3eb94eb3c1f5b3db573357a85ddef0e23995f5ea24d6227594d"
+  },
+  "recovery20261008": {
+    "date": "2026-10-08",
+    "checkedUtc": "2026-10-08T10:42:13.142508+00:00",
+    "state": "runtime_ui_deployed_reader_writer_blocked",
+    "completeModuleTests": 50,
+    "companionKnowledgeTests": 54,
+    "startupGuardTests": 8,
+    "readerGuardTests": 7,
+    "officialCliSyntheticTests": 7,
+    "build": true,
+    "typecheck": true,
+    "companionDeployed": true,
+    "creatorProcessesPreserved": true,
+    "sourcesConfigured": false,
+    "writerEnabled": false,
+    "schedulerEnabled": false,
+    "liveRetrievalVerified": false,
+    "service8081Running": false,
+    "credentialValuesRead": false,
+    "realContentImported": false,
+    "gitCommitted": false,
+    "gitPushed": false,
+    "files": {
+      "knowledge_sync.py": "6b0d77528a0afd9c969e7625c6690518473744f6e74ecf52a0f771f3a9386fe1",
+      "offline_writer.py": "7bc55a047d097a51f7e57e70d65ec4cb5db2f8d8d8d28249d182552b7362cfd3",
+      "companion_api.py": "b3faad39599e60e10ad3079b2e5ed0c9e81d70482d09a23d288f93d775b6c4fe",
+      "source_registry.py": "1e2edc8e807de39673ba91de952b743a3a9cf98ffb0755df9c5c91aa9c23a189",
+      "sync_service.py": "ff0cffb06ddf5d1b1fe7babff54a069bc93735c4ae62cee1aeff62b3bda8ea27",
+      "weknora_adapter.py": "1aca136a0d45c3eb94eb3c1f5b3db573357a85ddef0e23995f5ea24d6227594d",
+      "scheduler.py": "f64af8780f62367438d570fc1826260eb502823a0c91ef4041d7193f83d73129",
+      "sync_worker.py": "26bbf569972fd4c79b350792ae9ce3faa6389c180ff84141db78c9adbb9bd595",
+      "protocol-v1.json": "00c7e9817e7a7424b2f87f34fb876abaeb522abc108c10095eb93f08a8817b7f"
+    },
+    "historicalFileHashesMatch": {
+      "knowledge_sync.py": true,
+      "offline_writer.py": true,
+      "companion_api.py": true,
+      "source_registry.py": true,
+      "sync_service.py": true,
+      "weknora_adapter.py": true,
+      "scheduler.py": true,
+      "sync_worker.py": true,
+      "protocol-v1.json": true
+    },
+    "evidenceDirectory": "D:\\services\\weknora\\pilot-access\\recovery-20261008-current",
+    "knownBlockers": [
+      "existing_reader_has_no_expiry_approval_pending",
+      "official_v0.8.2_no_authenticated_api_key_identity",
+      "no_approved_source_target_processing_writer_policy",
+      "production_index_verifier_missing",
+      "version_prefix_and_remote_not_specified"
+    ],
+    "roles": [
+      {
+        "name": "code-mapper",
+        "task": "/root/knowledge_map"
+      },
+      {
+        "name": "reviewer",
+        "task": "/root/recovery_review"
+      },
+      {
+        "name": "docs-researcher",
+        "task": "/root/reader_identity_docs"
+      }
+    ],
+    "readonlyHardIsolation": "unverified",
+    "companionCompleteSuite": {
+      "initialPassed": 445,
+      "initialFailed": 8,
+      "skipped": 1,
+      "profilerArchiveCrLfFailures": 7,
+      "profilerRetestPassed": 10,
+      "deployedCollectorHashVerified": true,
+      "remainingBaselineFailures": 1,
+      "completeSuiteRerun": false,
+      "allGreen": false,
+      "remainingFailure": "tests/semantic-cli.test.ts:139 unchanged README CRLF; normalized inventory content matches",
+      "proof": "D:/services/weknora/pilot-access/recovery-20261008-current/companion-final-contracts.json"
+    },
+    "parentSnapshot": {
+      "branch": "main",
+      "head": "1b6fd01462bd0ff32a5e05499824a9b72e037d48",
+      "version": "0.2.0.411",
+      "commitCreatedByThisTask": false,
+      "parallelChangePreserved": true
+    }
+  },
+  "readerIdentity20261008": {
+    "checkedUtc": "2026-10-08T11:51:20.191335+00:00",
+    "state": "original_aes_unavailable_existing_reader_plaintext_or_replacement_decision_pending",
+    "supersedesCheckpoint": "recovery20261008",
+    "service8081Running": true,
+    "readerExpiryApprovedAndApplied": true,
+    "readerKeyId": 2,
+    "readerTenantId": 1,
+    "readerExpiresAtUtc": "2026-11-07T11:08:01.930969+00:00",
+    "updatedColumns": [
+      "expires_at"
+    ],
+    "credentialValueAndGrantsPreserved": true,
+    "readerIdentityRoute": "/api/v1/auth/reader-identity",
+    "authenticatedReaderVerified": false,
+    "keywordRetrievalVerified": false,
+    "readerGuardTests": 15,
+    "expiryTests": 6,
+    "newGoIdentityTests": 17,
+    "fullGoPassed": 1821,
+    "fullGoFailed": 4,
+    "fullGoAllGreen": false,
+    "fullGoFailureSetReproducedOnOriginalKeywordOverlay": true,
+    "knowledgeSyncFunctionalFilesChanged": false,
+    "completeModuleTestsReused": 50,
+    "sourcesConfigured": false,
+    "writerEnabled": false,
+    "schedulerEnabled": false,
+    "productionIndexVerifierConfigured": false,
+    "credentialValuesReadByAgent": false,
+    "realContentImported": false,
+    "gitCommitted": false,
+    "gitPushed": false,
+    "evidenceDirectory": "D:/services/weknora/pilot-access/reader-identity-20261008",
+    "ownerInstructions": "D:/services/weknora/cli/Owner-Cli-Handoff.md",
+    "knownBlockers": [
+      "existing_reader_plaintext_backup_or_replacement_authorization_original_AES_lost",
+      "no_approved_source_target_processing_writer_policy",
+      "production_index_verifier_missing",
+      "version_prefix_and_remote_not_specified"
+    ],
+    "keyListDiagnosis": {
+      "checkedUtc": "2026-10-08T12:31:27.001778+00:00",
+      "state": "original_aes_unavailable_existing_reader_plaintext_or_replacement_decision_pending",
+      "sourceCommit": "3e8b0bfc80b845b2d4b2ed683994748741450a97",
+      "route": "GET /api/v1/tenants/1/api-keys",
+      "handlerErrorHttpStatusFromSource": 500,
+      "runtimeKnownErrors": [
+        {
+          "file": "server.stdout.log",
+          "exactKnownMessageCounts": {
+            "encrypted_api_key_missing_aes": 10,
+            "api_key_list_handler_failure": 10,
+            "api_key_decryption_failure": 10
+          },
+          "rawLinesRecorded": false
+        },
+        {
+          "file": "server.stderr.log",
+          "exactKnownMessageCounts": {
+            "encrypted_api_key_missing_aes": 0,
+            "api_key_list_handler_failure": 0,
+            "api_key_decryption_failure": 0
+          },
+          "rawLinesRecorded": false
+        }
+      ],
+      "cause": "GORM ListAPIKeys invokes strict AfterFind; encrypted stored key cannot decrypt without original SYSTEM_AES_KEY",
+      "ownerConfirmedOriginalAesUnavailable": true,
+      "existingPlaintextReaderAuthenticationNeedsAes": false,
+      "authenticationHashLookupSkipsDecryptHooks": true,
+      "oldEncryptedRecordsChanged": false,
+      "replacementKeyCreated": false,
+      "credentialsOrRawResponseRecorded": false,
+      "pending": "Owner existing plaintext reader backup or explicit restricted replacement authorization"
+    }
+  }
+}

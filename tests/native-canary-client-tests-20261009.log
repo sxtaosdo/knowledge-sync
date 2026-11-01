@@ -1,0 +1,11 @@
+test_corrupt_index_proof_is_unknown (test_native_canary.NativeClientTests.test_corrupt_index_proof_is_unknown) ... ok
+test_lost_post_reply_recovers_durable_operation_without_second_post (test_native_canary.NativeClientTests.test_lost_post_reply_recovers_durable_operation_without_second_post) ... ok
+test_schedule_or_expanded_source_cannot_instantiate_native_writer (test_native_canary.NativeClientTests.test_schedule_or_expanded_source_cannot_instantiate_native_writer) ... ok
+test_status_unavailable_runtime_probe_never_reports_ready (test_native_canary.NativeClientTests.test_status_unavailable_runtime_probe_never_reports_ready) ... ok
+test_two_receipts_and_reopened_checkpoint (test_native_canary.NativeClientTests.test_two_receipts_and_reopened_checkpoint) ... ok
+test_wrong_binding_blocks_without_completed_sha (test_native_canary.NativeClientTests.test_wrong_binding_blocks_without_completed_sha) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 14.522s
+
+OK

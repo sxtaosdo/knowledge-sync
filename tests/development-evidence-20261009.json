@@ -1,0 +1,441 @@
+{
+  "schemaVersion": 1,
+  "checkedUTC": "2026-10-09T03:59:58Z",
+  "state": "offline_parent_pin_and_strict_index_synthetic_verified_production_disabled",
+  "testResult": {
+    "command": [
+      "C:\\Users\\33272\\miniconda3\\python.exe",
+      "-X",
+      "utf8",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "exitCode": 0,
+    "tests": 77,
+    "unittestDurationSeconds": 165.224,
+    "wallSeconds": 165.662,
+    "testLogSHA256": "83e7fe5596bb1b6e98aff1e3b71af7e1402bf36c5e526b2329507457b1c71164",
+    "astFiles": 12,
+    "startedUTC": "2026-10-09T03:53:47Z",
+    "finishedUTC": "2026-10-09T03:56:32Z",
+    "sourceHashes": {
+      "companion_api.py": "ee3280d81123070dde6a325ac2e774506a5ee0a0a9628c775fb71625a7255807",
+      "index_verifier.py": "805f218605f2bd05bcac4c02f43c3c73fe762ccdffaf3894564f6c76430ed6e8",
+      "knowledge_sync.py": "93850e2de63d5eebcf5a6f2d794f261d17c6f45b6a700a4568026a8e913c12b4",
+      "offline_writer.py": "66241eca7434090223429108a518c32f7d6a9e2b83c4b4e4240758ae47c93b04",
+      "scheduler.py": "f64af8780f62367438d570fc1826260eb502823a0c91ef4041d7193f83d73129",
+      "source_registry.py": "09ad819c5c320ff95eec35d3544866ba53e9a0a12cac1d780b67e2355d003cb5",
+      "sync_service.py": "555794aea49681a3eb5f81d2e86ff2676441b52bc004220dbee295c7db95c595",
+      "sync_worker.py": "26bbf569972fd4c79b350792ae9ce3faa6389c180ff84141db78c9adbb9bd595",
+      "weknora_adapter.py": "f0d93ac006f66c66e587da26cf9626f73f8af21dc0996550ebfff4609ae9f3cf",
+      "tests/test_dry_run.py": "d288560c658206e134d4d2d536602e2d79b36bcc3740503d5c84a8d44be83afc",
+      "tests/test_pins_index.py": "65a13d015ad4319157f45a1460830196b569b5c5767fb617b28ac352a7228a21",
+      "tests/test_sync.py": "def38f948a93ed2e549bba208eb392fc580a9ab3d9007adb3c91124679e4447f"
+    }
+  },
+  "newTests": 27,
+  "priorTests": 50,
+  "log": "tests/development-tests-20261009.log",
+  "actualStatus": {
+    "status": {
+      "schemaVersion": 1,
+      "ok": true,
+      "data": {
+        "configured": false,
+        "approved": false,
+        "enabled": false,
+        "writerReady": false,
+        "schedulerEnabled": false,
+        "systemAutostartRegistered": false,
+        "sources": [],
+        "sourceId": null,
+        "channel": null,
+        "repoId": null,
+        "targetSHA": null,
+        "completedSHA": null,
+        "freshness": "disabled",
+        "pending": 0,
+        "errors": [
+          {
+            "code": "POLICY_NOT_APPROVED",
+            "message": "No source is enrolled."
+          }
+        ]
+      },
+      "error": null
+    },
+    "scheduler-status": {
+      "schemaVersion": 1,
+      "ok": true,
+      "data": {
+        "configured": false,
+        "approved": false,
+        "enabled": false,
+        "writerReady": false,
+        "schedulerEnabled": false,
+        "systemAutostartRegistered": false,
+        "sources": [],
+        "sourceId": null,
+        "channel": null,
+        "repoId": null,
+        "targetSHA": null,
+        "completedSHA": null,
+        "freshness": "disabled",
+        "pending": 0,
+        "errors": [
+          {
+            "code": "POLICY_NOT_APPROVED",
+            "message": "No source is enrolled."
+          }
+        ]
+      },
+      "error": null
+    }
+  },
+  "implementation": {
+    "recursiveOfflineParentPin": true,
+    "nestedExplicitCaches": true,
+    "includeDescendantFindsAncestorPin": true,
+    "noChildHEADSubstitution": true,
+    "missingPinBlocks": true,
+    "deletionUsesFixedTargetTree": true,
+    "pureIndexVerifier": true,
+    "productionObservationProviderConfigured": false,
+    "ledgerSchema": 3,
+    "immutableProvenanceChain": true,
+    "metadataOnlyNewReceiptBindsPriorReceipt": true,
+    "contentAffectingPublishRequiresNewVersion": true,
+    "wholeBatchCheckpointAfterAllReady": true,
+    "receiptMappingDoneCheckpointAtomic": true,
+    "unknownBlockedWithoutBlindReplay": true,
+    "syntheticScheduledDualTrackAcceptance": true
+  },
+  "review": {
+    "codeMapper": "/root/code_mapper",
+    "architecture": "/root/pin_index_architecture",
+    "reviewer": "/root/pin_index_review",
+    "reviewMethod": "Static read-only incremental review against prechange ZIP; independent P2 fixed and rereviewed.",
+    "remainingP1P2": 0,
+    "hardReadonlyIsolation": "unverified",
+    "fixedFinding": "UNKNOWN content-affecting publish may not accept a prior indexed version; both recovery and proof require version > previous persistent receipt.",
+    "targetedFixTests": 4,
+    "targetedFixResult": "passed",
+    "targetedFixDurationSeconds": 15.707,
+    "ocrMode": "Delegation Mode selection/rules plus host review; no external model invoked",
+    "ocrRule": "D:/code/shidai3/.opencodereview/rule.json",
+    "ocrPreviewExitCode": 0,
+    "ocrRuleExitCode": 0,
+    "ocrPreview": {
+      "schema_version": "1",
+      "mode": "workspace",
+      "repository": "D:/code/shidai3/P8000/knowledge-sync",
+      "total_files": 23,
+      "reviewable_count": 18,
+      "excluded_count": 5,
+      "total_insertions": 4333,
+      "total_deletions": 0,
+      "reviewable_files": [
+        {
+          "path": ".gitignore",
+          "status": "added",
+          "insertions": 7,
+          "deletions": 0
+        },
+        {
+          "path": "README.md",
+          "status": "added",
+          "insertions": 90,
+          "deletions": 0
+        },
+        {
+          "path": "companion_api.py",
+          "status": "added",
+          "insertions": 54,
+          "deletions": 0
+        },
+        {
+          "path": "implementation-plan.md",
+          "status": "added",
+          "insertions": 171,
+          "deletions": 0
+        },
+        {
+          "path": "index_verifier.py",
+          "status": "added",
+          "insertions": 152,
+          "deletions": 0
+        },
+        {
+          "path": "knowledge_sync.py",
+          "status": "added",
+          "insertions": 367,
+          "deletions": 0
+        },
+        {
+          "path": "offline_writer.py",
+          "status": "added",
+          "insertions": 512,
+          "deletions": 0
+        },
+        {
+          "path": "owner-options.md",
+          "status": "added",
+          "insertions": 40,
+          "deletions": 0
+        },
+        {
+          "path": "phase-handoff.json",
+          "status": "added",
+          "insertions": 300,
+          "deletions": 0
+        },
+        {
+          "path": "protocol-v1.json",
+          "status": "added",
+          "insertions": 64,
+          "deletions": 0
+        },
+        {
+          "path": "scheduler.py",
+          "status": "added",
+          "insertions": 27,
+          "deletions": 0
+        },
+        {
+          "path": "source_registry.py",
+          "status": "added",
+          "insertions": 170,
+          "deletions": 0
+        },
+        {
+          "path": "sources.example.json",
+          "status": "added",
+          "insertions": 4,
+          "deletions": 0
+        },
+        {
+          "path": "sync_service.py",
+          "status": "added",
+          "insertions": 174,
+          "deletions": 0
+        },
+        {
+          "path": "sync_worker.py",
+          "status": "added",
+          "insertions": 39,
+          "deletions": 0
+        },
+        {
+          "path": "tests/verification-20261009.json",
+          "status": "added",
+          "insertions": 181,
+          "deletions": 0
+        },
+        {
+          "path": "validation-evidence.json",
+          "status": "added",
+          "insertions": 277,
+          "deletions": 0
+        },
+        {
+          "path": "weknora_adapter.py",
+          "status": "added",
+          "insertions": 258,
+          "deletions": 0
+        }
+      ],
+      "excluded_files": [
+        {
+          "path": "tests/development-tests-20261009.log",
+          "status": "added",
+          "insertions": 82,
+          "deletions": 0,
+          "exclude_reason": "unsupported_ext"
+        },
+        {
+          "path": "tests/test_dry_run.py",
+          "status": "added",
+          "insertions": 262,
+          "deletions": 0,
+          "exclude_reason": "default_path"
+        },
+        {
+          "path": "tests/test_pins_index.py",
+          "status": "added",
+          "insertions": 486,
+          "deletions": 0,
+          "exclude_reason": "default_path"
+        },
+        {
+          "path": "tests/test_sync.py",
+          "status": "added",
+          "insertions": 561,
+          "deletions": 0,
+          "exclude_reason": "default_path"
+        },
+        {
+          "path": "tests/verification-20261009.log",
+          "status": "added",
+          "insertions": 55,
+          "deletions": 0,
+          "exclude_reason": "unsupported_ext"
+        }
+      ]
+    },
+    "ocrCodePathsExplicitlyResolved": [
+      "companion_api.py",
+      "knowledge_sync.py",
+      "offline_writer.py",
+      "source_registry.py",
+      "sync_service.py",
+      "tests/test_sync.py",
+      "weknora_adapter.py",
+      "index_verifier.py",
+      "tests/test_pins_index.py"
+    ],
+    "defaultExcludedTestsStillReviewed": true,
+    "ocrEvidenceDirectory": "C:\\Users\\33272\\AppData\\Local\\Temp\\knowledge-sync-development-20261009T032411Z"
+  },
+  "preservation": {
+    "originalUntrackedFiles": 17,
+    "predevelopmentFiles": 19,
+    "archive": "C:\\Users\\33272\\AppData\\Local\\Temp\\knowledge-sync-development-20261009T032411Z\\prechange.zip",
+    "archiveSHA256": "9fbe2959b926e1759a3a021d3bc3ec3fa3c59be94652824adc42c49b47d19c01",
+    "archivedFileHashes": {
+      ".gitignore": "0513e890b0c31bf11264affaf00fdc7e6409de5d86e04a7dc1e100deb94c031a",
+      "companion_api.py": "b3faad39599e60e10ad3079b2e5ed0c9e81d70482d09a23d288f93d775b6c4fe",
+      "implementation-plan.md": "e7aedf0a565bd2c44bc9e64d905311e1b1463124c4f36871cf0c349602315a26",
+      "knowledge_sync.py": "6b0d77528a0afd9c969e7625c6690518473744f6e74ecf52a0f771f3a9386fe1",
+      "offline_writer.py": "7bc55a047d097a51f7e57e70d65ec4cb5db2f8d8d8d28249d182552b7362cfd3",
+      "phase-handoff.json": "a4f708011eb9662b0bd4cd7f00b3ce8a67467b5a610f2cfdb2c23c0b8148c3bc",
+      "protocol-v1.json": "8d6a1be74a758703bf217874dbae3416379da70fc0beb7c07ef00e946095c37d",
+      "README.md": "b9ad398f2b47c92e36a8cd9d2c7981ef03f080913218a097cc65aa0c592c18f9",
+      "scheduler.py": "f64af8780f62367438d570fc1826260eb502823a0c91ef4041d7193f83d73129",
+      "source_registry.py": "1e2edc8e807de39673ba91de952b743a3a9cf98ffb0755df9c5c91aa9c23a189",
+      "sources.example.json": "c6917c067151f17eea999bc6c6b747ddc7a01628bee5419bfd922cba2a073aad",
+      "sync_service.py": "ff0cffb06ddf5d1b1fe7babff54a069bc93735c4ae62cee1aeff62b3bda8ea27",
+      "sync_worker.py": "26bbf569972fd4c79b350792ae9ce3faa6389c180ff84141db78c9adbb9bd595",
+      "tests/test_dry_run.py": "d288560c658206e134d4d2d536602e2d79b36bcc3740503d5c84a8d44be83afc",
+      "tests/test_sync.py": "279141f2121a0271eca99c07bbc050203dd592b64db19842056dbe15b5444ae7",
+      "tests/verification-20261009.json": "9fc72a9746bfabc4f6d96efd0516a358a57f318471d3782729bb37838771c041",
+      "tests/verification-20261009.log": "e864a296a011536f89cd5d79984f30d45e84a3d6374af04eec5cf0bc9bceea6f",
+      "validation-evidence.json": "38b33ead7096703e74558ec5324249ca0375ca0746866e76b682b3776a6e264d",
+      "weknora_adapter.py": "1aca136a0d45c3eb94eb3c1f5b3db573357a85ddef0e23995f5ea24d6227594d"
+    },
+    "archiveFilesMatch": {
+      ".gitignore": true,
+      "companion_api.py": true,
+      "implementation-plan.md": true,
+      "knowledge_sync.py": true,
+      "offline_writer.py": true,
+      "phase-handoff.json": true,
+      "protocol-v1.json": true,
+      "README.md": true,
+      "scheduler.py": true,
+      "source_registry.py": true,
+      "sources.example.json": true,
+      "sync_service.py": true,
+      "sync_worker.py": true,
+      "tests/test_dry_run.py": true,
+      "tests/test_sync.py": true,
+      "tests/verification-20261009.json": true,
+      "tests/verification-20261009.log": true,
+      "validation-evidence.json": true,
+      "weknora_adapter.py": true
+    },
+    "currentBaselineFilesUnchanged": {
+      ".gitignore": true,
+      "companion_api.py": false,
+      "implementation-plan.md": false,
+      "knowledge_sync.py": false,
+      "offline_writer.py": false,
+      "phase-handoff.json": true,
+      "protocol-v1.json": false,
+      "README.md": false,
+      "scheduler.py": true,
+      "source_registry.py": false,
+      "sources.example.json": true,
+      "sync_service.py": false,
+      "sync_worker.py": true,
+      "tests/test_dry_run.py": true,
+      "tests/test_sync.py": false,
+      "tests/verification-20261009.json": true,
+      "tests/verification-20261009.log": true,
+      "validation-evidence.json": true,
+      "weknora_adapter.py": false
+    },
+    "oldValidationReceiptUnchanged": true,
+    "first20261009ReceiptAndLogUnchanged": true,
+    "protectedServiceDocumentsHistorical": 1647,
+    "protectedServicePendingHistorical": 1493,
+    "actualDatabaseCountsReverified": false,
+    "historicalCountsAreNotCurrentRuntimeClaims": true
+  },
+  "git": {
+    "branch": "main",
+    "head": null,
+    "version": null,
+    "remote": null,
+    "checkpointCreated": false,
+    "staged": false,
+    "pushed": false,
+    "tagged": false,
+    "parentPinModified": false,
+    "recommendedOwnerPrefix": "0.1.0",
+    "suggestedFirstVersion": "0.1.0.1",
+    "recommendationApproved": false,
+    "blocker": "Owner three-part version prefix; blocks commit only, independent code work completed.",
+    "parentHEAD": "1b6fd01462bd0ff32a5e05499824a9b72e037d48",
+    "parentVersion": "0.2.0.411"
+  },
+  "limits": {
+    "realSourcesConfigured": false,
+    "writerEnabled": false,
+    "schedulerEnabled": false,
+    "systemAutostartRegistered": false,
+    "credentialsRead": false,
+    "credentialsCreated": false,
+    "realContentImported": false,
+    "realNetworkWrites": false,
+    "modelCalls": false,
+    "serviceDatabaseModified": false,
+    "legacyTasksResumed": false,
+    "companionOrGamesModified": false,
+    "liveReaderReverified": false,
+    "runtimeServiceState": "unknown: socket access 10013; readonly DB open SQLITE_CANTOPEN in baseline",
+    "permissionBypassAttempted": false
+  },
+  "remainingBlockers": [
+    "exact source/cache/ref/include policy and separate local/official KB identities",
+    "authoritative observation provider and required indexes approval/implementation",
+    "processing/egress boundary and real canary acceptance",
+    "separate restricted writer credentials, deletion limits and schedule policy",
+    "current sandbox cannot reverify live service/reader via restricted socket/DB access",
+    "Owner version prefix for local Git checkpoint"
+  ],
+  "ownerOptions": "owner-options.md",
+  "protocol": "protocol-v1.json",
+  "artifactHashes": {
+    "README.md": "e14938aa4b8baf1405a408c2dabcfd5b23c27b6bb2120f94a9f53151c3a3ef38",
+    "companion_api.py": "ee3280d81123070dde6a325ac2e774506a5ee0a0a9628c775fb71625a7255807",
+    "implementation-plan.md": "e6b3079eb5ca544eedf9cfd2853378cda729f4a65add969710ed0cb89ec6e20f",
+    "knowledge_sync.py": "93850e2de63d5eebcf5a6f2d794f261d17c6f45b6a700a4568026a8e913c12b4",
+    "offline_writer.py": "66241eca7434090223429108a518c32f7d6a9e2b83c4b4e4240758ae47c93b04",
+    "protocol-v1.json": "307b12f441600809266594c84ae6612a98db557962179a42e63c2f62cc456168",
+    "source_registry.py": "09ad819c5c320ff95eec35d3544866ba53e9a0a12cac1d780b67e2355d003cb5",
+    "sync_service.py": "555794aea49681a3eb5f81d2e86ff2676441b52bc004220dbee295c7db95c595",
+    "tests/test_sync.py": "def38f948a93ed2e549bba208eb392fc580a9ab3d9007adb3c91124679e4447f",
+    "weknora_adapter.py": "f0d93ac006f66c66e587da26cf9626f73f8af21dc0996550ebfff4609ae9f3cf",
+    "index_verifier.py": "805f218605f2bd05bcac4c02f43c3c73fe762ccdffaf3894564f6c76430ed6e8",
+    "owner-options.md": "336661726d9d2db85886bbaf90200d3ea434a50483175e02c3ec5f7a3d6a465b",
+    "tests/development-tests-20261009.log": "83e7fe5596bb1b6e98aff1e3b71af7e1402bf36c5e526b2329507457b1c71164",
+    "tests/test_pins_index.py": "65a13d015ad4319157f45a1460830196b569b5c5767fb617b28ac352a7228a21"
+  }
+}

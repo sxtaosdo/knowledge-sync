@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "unicodeVersion": "15.0.0",
+  "goVersion": "go1.26.8",
+  "pinnedTablesMatch": true,
+  "samplesMatched": 1511,
+  "approvedCommittedDocsMatched": 2,
+  "oracleSourceSHA256": "f3c0a33894484624dacbbd498b009919d0003ad214cd72c99a469a2de94abcde",
+  "inputSHA256": "931c7d58415b5555e57a94900bb98c53e03e7389838c35ecb6a394065b4c05b4",
+  "outputSHA256": "001dade7cb735e896e47bcf4794026bacf9a59688c568b208ea8906e15660014",
+  "worktreeFilesRead": false,
+  "modelCalls": false,
+  "sockets": false
+}

@@ -1,0 +1,525 @@
+test_cli_stdout_is_one_envelope_and_no_source_details_in_error (test_sync.ServiceTests.test_cli_stdout_is_one_envelope_and_no_source_details_in_error) ... ERROR
+test_explicit_exclude_is_not_read_and_changes_scope (test_sync.ServiceTests.test_explicit_exclude_is_not_read_and_changes_scope) ... ERROR
+test_filtered_or_draft_document_is_not_treated_as_physical_deletion (test_sync.ServiceTests.test_filtered_or_draft_document_is_not_treated_as_physical_deletion) ... ERROR
+test_job_submission_is_only_durable_enqueue (test_sync.ServiceTests.test_job_submission_is_only_durable_enqueue) ... ERROR
+test_official_status_never_claims_remote_latest (test_sync.ServiceTests.test_official_status_never_claims_remote_latest) ... ERROR
+test_production_transport_reloads_policy_before_credentials_and_network (test_sync.ServiceTests.test_production_transport_reloads_policy_before_credentials_and_network) ... ERROR
+test_registry_file_revocation_and_scope_change_reject_cached_source (test_sync.ServiceTests.test_registry_file_revocation_and_scope_change_reject_cached_source) ... ERROR
+test_registry_rejects_unknown_paths_refs_targets_and_secret_fields (test_sync.ServiceTests.test_registry_rejects_unknown_paths_refs_targets_and_secret_fields) ... ERROR
+test_resident_worker_reloads_registry_before_each_tick (test_sync.ServiceTests.test_resident_worker_reloads_registry_before_each_tick) ... ERROR
+test_rest_adapter_reloads_policy_before_request (test_sync.ServiceTests.test_rest_adapter_reloads_policy_before_request) ... ERROR
+test_scheduler_disabled_by_default_and_expiry_rechecked (test_sync.ServiceTests.test_scheduler_disabled_by_default_and_expiry_rechecked) ... ERROR
+test_status_is_readonly_and_empty_registry_reports_off (test_sync.ServiceTests.test_status_is_readonly_and_empty_registry_reports_off) ... ERROR
+test_unapproved_source_and_frontend_injections_fail_before_ledger_creation (test_sync.ServiceTests.test_unapproved_source_and_frontend_injections_fail_before_ledger_creation) ... ERROR
+
+======================================================================
+ERROR: test_cli_stdout_is_one_envelope_and_no_source_details_in_error (test_sync.ServiceTests.test_cli_stdout_is_one_envelope_and_no_source_details_in_error)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\code\shidai3\P8000\knowledge-sync\tests\test_dry_run.py", line 22, in setUp
+    self.repo.mkdir()
+  File "C:\Users\33272\miniconda3\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-ivli3esf\\source'
+
+======================================================================
+ERROR: test_explicit_exclude_is_not_read_and_changes_scope (test_sync.ServiceTests.test_explicit_exclude_is_not_read_and_changes_scope)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\code\shidai3\P8000\knowledge-sync\tests\test_dry_run.py", line 22, in setUp
+    self.repo.mkdir()
+  File "C:\Users\33272\miniconda3\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-nf4kgf3g\\source'
+
+======================================================================
+ERROR: test_filtered_or_draft_document_is_not_treated_as_physical_deletion (test_sync.ServiceTests.test_filtered_or_draft_document_is_not_treated_as_physical_deletion)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\code\shidai3\P8000\knowledge-sync\tests\test_dry_run.py", line 22, in setUp
+    self.repo.mkdir()
+  File "C:\Users\33272\miniconda3\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-i1j7o766\\source'
+
+======================================================================
+ERROR: test_job_submission_is_only_durable_enqueue (test_sync.ServiceTests.test_job_submission_is_only_durable_enqueue)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\code\shidai3\P8000\knowledge-sync\tests\test_dry_run.py", line 22, in setUp
+    self.repo.mkdir()
+  File "C:\Users\33272\miniconda3\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-aan327ca\\source'
+
+======================================================================
+ERROR: test_official_status_never_claims_remote_latest (test_sync.ServiceTests.test_official_status_never_claims_remote_latest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\code\shidai3\P8000\knowledge-sync\tests\test_dry_run.py", line 22, in setUp
+    self.repo.mkdir()
+  File "C:\Users\33272\miniconda3\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-d1qpbave\\source'
+
+======================================================================
+ERROR: test_production_transport_reloads_policy_before_credentials_and_network (test_sync.ServiceTests.test_production_transport_reloads_policy_before_credentials_and_network)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\code\shidai3\P8000\knowledge-sync\tests\test_dry_run.py", line 22, in setUp
+    self.repo.mkdir()
+  File "C:\Users\33272\miniconda3\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-ex65lctp\\source'
+
+======================================================================
+ERROR: test_registry_file_revocation_and_scope_change_reject_cached_source (test_sync.ServiceTests.test_registry_file_revocation_and_scope_change_reject_cached_source)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\code\shidai3\P8000\knowledge-sync\tests\test_dry_run.py", line 22, in setUp
+    self.repo.mkdir()
+  File "C:\Users\33272\miniconda3\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-ambqier8\\source'
+
+======================================================================
+ERROR: test_registry_rejects_unknown_paths_refs_targets_and_secret_fields (test_sync.ServiceTests.test_registry_rejects_unknown_paths_refs_targets_and_secret_fields)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\code\shidai3\P8000\knowledge-sync\tests\test_dry_run.py", line 22, in setUp
+    self.repo.mkdir()
+  File "C:\Users\33272\miniconda3\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-9flsg46x\\source'
+
+======================================================================
+ERROR: test_resident_worker_reloads_registry_before_each_tick (test_sync.ServiceTests.test_resident_worker_reloads_registry_before_each_tick)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\code\shidai3\P8000\knowledge-sync\tests\test_dry_run.py", line 22, in setUp
+    self.repo.mkdir()
+  File "C:\Users\33272\miniconda3\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-6zwz7odp\\source'
+
+======================================================================
+ERROR: test_rest_adapter_reloads_policy_before_request (test_sync.ServiceTests.test_rest_adapter_reloads_policy_before_request)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\code\shidai3\P8000\knowledge-sync\tests\test_dry_run.py", line 22, in setUp
+    self.repo.mkdir()
+  File "C:\Users\33272\miniconda3\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-vq9kt0vb\\source'
+
+======================================================================
+ERROR: test_scheduler_disabled_by_default_and_expiry_rechecked (test_sync.ServiceTests.test_scheduler_disabled_by_default_and_expiry_rechecked)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\code\shidai3\P8000\knowledge-sync\tests\test_dry_run.py", line 22, in setUp
+    self.repo.mkdir()
+  File "C:\Users\33272\miniconda3\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-ee1e88x8\\source'
+
+======================================================================
+ERROR: test_status_is_readonly_and_empty_registry_reports_off (test_sync.ServiceTests.test_status_is_readonly_and_empty_registry_reports_off)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\code\shidai3\P8000\knowledge-sync\tests\test_dry_run.py", line 22, in setUp
+    self.repo.mkdir()
+  File "C:\Users\33272\miniconda3\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-4du1xktj\\source'
+
+======================================================================
+ERROR: test_unapproved_source_and_frontend_injections_fail_before_ledger_creation (test_sync.ServiceTests.test_unapproved_source_and_frontend_injections_fail_before_ledger_creation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\code\shidai3\P8000\knowledge-sync\tests\test_dry_run.py", line 22, in setUp
+    self.repo.mkdir()
+  File "C:\Users\33272\miniconda3\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-4j_brqxo\\source'
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.027s
+
+FAILED (errors=13)
+Traceback (most recent call last):
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-4j_brqxo'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\33272\miniconda3\Lib\weakref.py", line 666, in _exitfunc
+    f()
+  File "C:\Users\33272\miniconda3\Lib\weakref.py", line 590, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 935, in _cleanup
+    cls._rmtree(name, ignore_errors=ignore_errors)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 930, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 902, in onexc
+    _resetperms(path)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-4j_brqxo'
+Traceback (most recent call last):
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-4du1xktj'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\33272\miniconda3\Lib\weakref.py", line 666, in _exitfunc
+    f()
+  File "C:\Users\33272\miniconda3\Lib\weakref.py", line 590, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 935, in _cleanup
+    cls._rmtree(name, ignore_errors=ignore_errors)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 930, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 902, in onexc
+    _resetperms(path)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-4du1xktj'
+Traceback (most recent call last):
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-ee1e88x8'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\33272\miniconda3\Lib\weakref.py", line 666, in _exitfunc
+    f()
+  File "C:\Users\33272\miniconda3\Lib\weakref.py", line 590, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 935, in _cleanup
+    cls._rmtree(name, ignore_errors=ignore_errors)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 930, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 902, in onexc
+    _resetperms(path)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-ee1e88x8'
+Traceback (most recent call last):
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-vq9kt0vb'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\33272\miniconda3\Lib\weakref.py", line 666, in _exitfunc
+    f()
+  File "C:\Users\33272\miniconda3\Lib\weakref.py", line 590, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 935, in _cleanup
+    cls._rmtree(name, ignore_errors=ignore_errors)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 930, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 902, in onexc
+    _resetperms(path)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-vq9kt0vb'
+Traceback (most recent call last):
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-6zwz7odp'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\33272\miniconda3\Lib\weakref.py", line 666, in _exitfunc
+    f()
+  File "C:\Users\33272\miniconda3\Lib\weakref.py", line 590, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 935, in _cleanup
+    cls._rmtree(name, ignore_errors=ignore_errors)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 930, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 902, in onexc
+    _resetperms(path)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-6zwz7odp'
+Traceback (most recent call last):
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-9flsg46x'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\33272\miniconda3\Lib\weakref.py", line 666, in _exitfunc
+    f()
+  File "C:\Users\33272\miniconda3\Lib\weakref.py", line 590, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 935, in _cleanup
+    cls._rmtree(name, ignore_errors=ignore_errors)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 930, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 902, in onexc
+    _resetperms(path)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-9flsg46x'
+Traceback (most recent call last):
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-ambqier8'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\33272\miniconda3\Lib\weakref.py", line 666, in _exitfunc
+    f()
+  File "C:\Users\33272\miniconda3\Lib\weakref.py", line 590, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 935, in _cleanup
+    cls._rmtree(name, ignore_errors=ignore_errors)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 930, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 902, in onexc
+    _resetperms(path)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-ambqier8'
+Traceback (most recent call last):
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-ex65lctp'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\33272\miniconda3\Lib\weakref.py", line 666, in _exitfunc
+    f()
+  File "C:\Users\33272\miniconda3\Lib\weakref.py", line 590, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 935, in _cleanup
+    cls._rmtree(name, ignore_errors=ignore_errors)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 930, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 902, in onexc
+    _resetperms(path)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-ex65lctp'
+Traceback (most recent call last):
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-d1qpbave'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\33272\miniconda3\Lib\weakref.py", line 666, in _exitfunc
+    f()
+  File "C:\Users\33272\miniconda3\Lib\weakref.py", line 590, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 935, in _cleanup
+    cls._rmtree(name, ignore_errors=ignore_errors)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 930, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 902, in onexc
+    _resetperms(path)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-d1qpbave'
+Traceback (most recent call last):
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-aan327ca'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\33272\miniconda3\Lib\weakref.py", line 666, in _exitfunc
+    f()
+  File "C:\Users\33272\miniconda3\Lib\weakref.py", line 590, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 935, in _cleanup
+    cls._rmtree(name, ignore_errors=ignore_errors)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 930, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 902, in onexc
+    _resetperms(path)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-aan327ca'
+Traceback (most recent call last):
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-i1j7o766'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\33272\miniconda3\Lib\weakref.py", line 666, in _exitfunc
+    f()
+  File "C:\Users\33272\miniconda3\Lib\weakref.py", line 590, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 935, in _cleanup
+    cls._rmtree(name, ignore_errors=ignore_errors)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 930, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 902, in onexc
+    _resetperms(path)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-i1j7o766'
+Traceback (most recent call last):
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-nf4kgf3g'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\33272\miniconda3\Lib\weakref.py", line 666, in _exitfunc
+    f()
+  File "C:\Users\33272\miniconda3\Lib\weakref.py", line 590, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 935, in _cleanup
+    cls._rmtree(name, ignore_errors=ignore_errors)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 930, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 902, in onexc
+    _resetperms(path)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-nf4kgf3g'
+Traceback (most recent call last):
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-ivli3esf'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\33272\miniconda3\Lib\weakref.py", line 666, in _exitfunc
+    f()
+  File "C:\Users\33272\miniconda3\Lib\weakref.py", line 590, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 935, in _cleanup
+    cls._rmtree(name, ignore_errors=ignore_errors)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 930, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\33272\miniconda3\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 902, in onexc
+    _resetperms(path)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 286, in _resetperms
+    _dont_follow_symlinks(_os.chmod, path, 0o700)
+  File "C:\Users\33272\miniconda3\Lib\tempfile.py", line 277, in _dont_follow_symlinks
+    func(path, *args)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\33272\\AppData\\Local\\Packages\\sandbox.{044b6d37-b150-4f5c-bfd4-ff2f6fe86338}\\AC\\Temp\\knowledge-sync-test-ivli3esf'

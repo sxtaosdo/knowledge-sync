@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "checkedUtc": "2026-10-09T03:21:29.340536+00:00",
+  "state": "fresh_synthetic_validation_passed_production_disabled",
+  "execution": {
+    "cwd": "D:\\code\\shidai3\\P8000\\knowledge-sync",
+    "python": "3.12.9",
+    "git": "2.56.0.windows.1",
+    "gitRoot": "D:\\code\\shidai3\\P8000\\knowledge-sync",
+    "branch": "main",
+    "head": null,
+    "version": null,
+    "remoteConfigured": false,
+    "parentGitlinkRegistered": false,
+    "staged": false,
+    "committed": false,
+    "pushed": false,
+    "tagCreated": false
+  },
+  "tests": {
+    "executedThisTurn": true,
+    "command": "python -X utf8 -B -m unittest discover -s tests -p test_*.py -v",
+    "passed": 50,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "durationSeconds": 68.271,
+    "astFiles": 10,
+    "log": "tests/verification-20261009.log",
+    "logSha256": "e864a296a011536f89cd5d79984f30d45e84a3d6374af04eec5cf0bc9bceea6f",
+    "fixtureLocation": "C:/Users/33272/AppData/Local/Temp",
+    "tempCorrection": "Windows redirected default TEMP outside declared writable roots; used the explicitly authorized Temp root without changing ACLs or sandbox permissions"
+  },
+  "sourceIntegrity": {
+    "baselineUtc": "2026-10-09T03:17:03.665124+00:00",
+    "testedFilesChanged": [],
+    "allTenPythonFilesMatchPriorEvidence": true,
+    "sourceHashes": {
+      "companion_api.py": "b3faad39599e60e10ad3079b2e5ed0c9e81d70482d09a23d288f93d775b6c4fe",
+      "knowledge_sync.py": "6b0d77528a0afd9c969e7625c6690518473744f6e74ecf52a0f771f3a9386fe1",
+      "offline_writer.py": "7bc55a047d097a51f7e57e70d65ec4cb5db2f8d8d8d28249d182552b7362cfd3",
+      "scheduler.py": "f64af8780f62367438d570fc1826260eb502823a0c91ef4041d7193f83d73129",
+      "source_registry.py": "1e2edc8e807de39673ba91de952b743a3a9cf98ffb0755df9c5c91aa9c23a189",
+      "sync_service.py": "ff0cffb06ddf5d1b1fe7babff54a069bc93735c4ae62cee1aeff62b3bda8ea27",
+      "sync_worker.py": "26bbf569972fd4c79b350792ae9ce3faa6389c180ff84141db78c9adbb9bd595",
+      "weknora_adapter.py": "1aca136a0d45c3eb94eb3c1f5b3db573357a85ddef0e23995f5ea24d6227594d",
+      "tests/test_dry_run.py": "d288560c658206e134d4d2d536602e2d79b36bcc3740503d5c84a8d44be83afc",
+      "tests/test_sync.py": "279141f2121a0271eca99c07bbc050203dd592b64db19842056dbe15b5444ae7"
+    }
+  },
+  "bridgeActualStatus": {
+    "status": {
+      "schemaVersion": 1,
+      "ok": true,
+      "data": {
+        "configured": false,
+        "approved": false,
+        "enabled": false,
+        "writerReady": false,
+        "schedulerEnabled": false,
+        "systemAutostartRegistered": false,
+        "sources": [],
+        "sourceId": null,
+        "channel": null,
+        "repoId": null,
+        "targetSHA": null,
+        "completedSHA": null,
+        "freshness": "disabled",
+        "pending": 0,
+        "errors": [
+          {
+            "code": "POLICY_NOT_APPROVED",
+            "message": "No source is enrolled."
+          }
+        ]
+      },
+      "error": null
+    },
+    "scheduler-status": {
+      "schemaVersion": 1,
+      "ok": true,
+      "data": {
+        "configured": false,
+        "approved": false,
+        "enabled": false,
+        "writerReady": false,
+        "schedulerEnabled": false,
+        "systemAutostartRegistered": false,
+        "sources": [],
+        "sourceId": null,
+        "channel": null,
+        "repoId": null,
+        "targetSHA": null,
+        "completedSHA": null,
+        "freshness": "disabled",
+        "pending": 0,
+        "errors": [
+          {
+            "code": "POLICY_NOT_APPROVED",
+            "message": "No source is enrolled."
+          }
+        ]
+      },
+      "error": null
+    }
+  },
+  "reader": {
+    "officialCliSha256": "2c95e68e92a6de647e3c5ab82b767f8725e06934fe3a143c74123f578b74bec8",
+    "matchesHandoffExpectedHash": true,
+    "protectedFileExists": true,
+    "protectedFileRead": false,
+    "credentialsUsed": false,
+    "liveIdentityReverified": false,
+    "liveRetrievalReverified": false,
+    "lastHistoricalAcceptance": "README / Owner-Cli-Handoff report ID3 scope and 3 keyword results on 2026-10-09; historical clue only"
+  },
+  "service": {
+    "binarySha256": "b0396b5db8efff9516e2ccd8f321b8ba3cd91b9097bbe18614784a52b405d13f",
+    "runtimeState": "unknown_in_this_sandbox",
+    "socketErrors": {
+      "8081": 10013,
+      "32180": 10013
+    },
+    "readOnlyDbOpen": {
+      "result": "blocked",
+      "sqliteErrorCode": 14,
+      "sqliteErrorName": "SQLITE_CANTOPEN"
+    },
+    "live1647Documents1493PendingReverified": false,
+    "legacyMcpEndpointReverified": false,
+    "serviceRestarted": false,
+    "historicalTasksResumed": false
+  },
+  "sourcePolicyEvidence": {
+    "local": "committed HEAD only; dirty/untracked excluded",
+    "official": "explicit cached refs/remotes/...; no refresh; remote freshness unknown",
+    "gitReplace": "disabled for commit and blob identity",
+    "promisor": "missing objects rejected offline; synthetic remote request count zero",
+    "gitlinks": "exact parent pin recorded only; no child HEAD or pinned child content read",
+    "deletion": "physical absence plus mapping ownership and threshold; Draft/excluded documents require retention review",
+    "completion": "every batch operation done with positive index/deletion attestation before completedSHA advances",
+    "recovery": "lost create/publish reconciled without blind resubmit; cancellation/revocation rechecked",
+    "schedule": "internal synthetic ticks passed; no live scheduler or OS registration"
+  },
+  "roleEvidence": {
+    "codeMapper": {
+      "task": "/root/code_mapper",
+      "resultReceived": true,
+      "filesChanged": false,
+      "effectiveReadOnlyIsolation": "unverified",
+      "agentGitProbe": "NtCreateDirectoryObject 0xC0000022; primary shell independently confirmed root/branch"
+    },
+    "otherReviewRoles": "not invoked; no functional code change"
+  },
+  "companionHandoff": {
+    "threadId": "01a11ea6-0565-731a-8d34-cc67f2f0a086",
+    "messageDelivered": true,
+    "protocolFile": "protocol-v1.json",
+    "consumerLabels": "ready/queued/indexed are view labels; use actual per-source writerReady, jobId/jobState, completedSHA and job receipts"
+  },
+  "limits": {
+    "realSourcesRegistered": false,
+    "realContentScannedOrImported": false,
+    "networkWrites": false,
+    "modelCalls": false,
+    "credentialsCreatedOrRead": false,
+    "securityPermissionsExpanded": false,
+    "writerEnabled": false,
+    "schedulerEnabled": false,
+    "companionOrGamesModified": false,
+    "oldEvidenceOverwritten": false
+  },
+  "remainingImplementation": [
+    "pinned child document/object reader not implemented",
+    "approved production index verifier not implemented/configured",
+    "production source/scope, isolated local/official KBs, processing/egress, deletion policy and interval not approved/configured",
+    "separate scoped writer credentials not configured",
+    "current sandbox live service/reader acceptance unavailable",
+    "Owner version prefix, remote and maintenance responsibility not specified; local Git checkpoint blocked by version contract"
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "entrypoint": "D:/code/shidai3/P8000/knowledge-sync/companion_api.py",
+  "python": "C:/Users/33272/miniconda3/python.exe",
+  "git": "C:/Program Files/Git/cmd/git.exe",
+  "arguments": [
+    "-X",
+    "utf8",
+    "-B",
+    "<entrypoint>",
+    "--operation",
+    "<operation>"
+  ],
+  "operations": [
+    "status",
+    "dry-run",
+    "sync-once",
+    "scheduler-status"
+  ],
+  "input": {
+    "source": {
+      "sourceId": "registered source ID",
+      "channel": "local|official"
+    },
+    "globalStatus": {},
+    "globalOperations": [
+      "status",
+      "scheduler-status"
+    ],
+    "additionalProperties": false,
+    "duplicateKeysAllowed": false,
+    "maximumBytes": 4096,
+    "sourceIdPattern": "^[a-z][a-z0-9._-]{0,63}$"
+  },
+  "output": {
+    "schemaVersion": 1,
+    "ok": "boolean; inspect this for business success",
+    "data": "operation-specific object",
+    "error": "null or {code,message}; no raw exception, credential or document body"
+  },
+  "statusFields": [
+    "schemaVersion",
+    "sourceId",
+    "channel",
+    "repoId",
+    "configured",
+    "approved",
+    "enabled",
+    "writerReady",
+    "targetSHA",
+    "completedSHA",
+    "freshness",
+    "remoteFreshness",
+    "pending",
+    "errors",
+    "jobs",
+    "scopeHash",
+    "schedulerEnabled",
+    "intervalSeconds",
+    "systemAutostartRegistered",
+    "indexReceipts",
+    "ready",
+    "queued",
+    "queuedCount",
+    "indexed",
+    "indexedDocuments"
+  ],
+  "stateSemantics": {
+    "actualBooleanFields": [
+      "configured",
+      "approved",
+      "enabled",
+      "writerReady",
+      "schedulerEnabled",
+      "systemAutostartRegistered",
+      "ready",
+      "queued",
+      "indexed"
+    ],
+    "ready": "Actual per-source boolean alias of writerReady. Requires approved/enabled source, present credential reference, non-synthetic production adapter and successful current authenticated single-KB native capabilities probe. A probe exception is false. Does not prove retrieval or indexing.",
+    "queued": "Actual per-source boolean: queuedCount>0. Counts only queued operations, not running/awaiting/blocked tasks or queued batches. sync-once queuedOnly=true/writePerformed=false still means durable enqueue only.",
+    "indexed": "Actual per-source boolean: non-null targetSHA==completedSHA, pending==0, at least one active mapping, and every active mapping has a valid non-synthetic index receipt. Synthetic completion never produces indexed=true.",
+    "pending": "Count of operations not in done/cancelled, including blocked operations; this is not a count of completed indexes or queued batches.",
+    "indexReceipts": "Additive per-source status list of {operationId,documentId,receiptHash,synthetic}; metadata only. synthetic=true is fixture evidence, never production acceptance. A single receipt is not a whole-batch completedSHA.",
+    "schedulerEnabled": "Approved/enabled source schedule flag with interval >=60; does not prove a resident worker or OS task is running.",
+    "globalAggregates": "Global writerReady/enabled/schedulerEnabled use any(source); configured uses nonempty registry and approved uses all(source). New ready/queued/indexed fields are per-source in data.sources; do not infer per-channel acceptance from global readiness.",
+    "queuedCount": "Number of durable outbox operations whose exact state is queued.",
+    "indexedDocuments": "Count of active mappings joined to valid non-synthetic receipts by their current operation_id; historical and synthetic receipts are excluded."
+  },
+  "globalStatus": "data.sources contains per-source statuses; an empty registry is configured=false/approved=false/enabled=false/writerReady=false with POLICY_NOT_APPROVED in data.errors",
+  "channelDisplay": {
+    "local": "dev",
+    "official": "official"
+  },
+  "freshnessValues": [
+    "unknown",
+    "current",
+    "stale",
+    "syncing",
+    "blocked",
+    "disabled"
+  ],
+  "officialRemoteFreshness": "unknown_cached_ref; no fetch and no claim of remote latest",
+  "syncOnce": {
+    "behavior": "durable enqueue only; no writer process or network write in the CLI call",
+    "fields": [
+      "jobId",
+      "jobState",
+      "targetSHA",
+      "planHash",
+      "writePerformed",
+      "queuedOnly",
+      "sourceId",
+      "channel"
+    ],
+    "queuedOnly": true,
+    "writePerformed": false,
+    "timeout": "Never automatically retry after uncertain enqueue; inspect status/jobs. Only an independently started worker advances the job."
+  },
+  "exitCodes": {
+    "0": "one valid JSON envelope, including domain failure",
+    "2": "invalid command arguments"
+  },
+  "writerCredentialReferences": [
+    "KNOWLEDGE_SYNC_LOCAL_CANARY_KEY",
+    "KNOWLEDGE_SYNC_OFFICIAL_CANARY_KEY"
+  ],
+  "defaults": {
+    "sources": [],
+    "writerEnabled": false,
+    "scheduleEnabled": false,
+    "networkEnabled": false,
+    "productionIndexVerifierConfigured": false,
+    "systemAutostartRegistered": false
+  },
+  "readerEntry": "powershell.exe -NoProfile -File D:/services/weknora/cli/Enter-PilotCli.ps1",
+  "readerGate": "Existing approved recovery reader ID3, tenant1/single-pilot retrieve-only, expires 2026-11-08T01:25:46.685460Z; Enter-PilotCli.ps1 -UseProtectedRecovery uses local DPAPI without exposing the key. Current execution environment has not reverified live authentication/retrieval; no new credential is authorized by this protocol.",
+  "parentPinSupport": "Implemented offline recursive reading at exact parent-tree gitlink SHA from explicitly registered local caches, including nested mounts and include paths beneath mounts. Never substitutes child HEAD, reads dirty files, fetches or modifies a parent pin. Missing cache/commit blocks completion. Unregistered pins remain metadata in the standalone dry-run; the sync service rejects unread in-scope pins.",
+  "sourceProvenance": {
+    "statusSHA": "targetSHA/completedSHA retain the selected ROOT parent commit semantics for both local committed and cached official tracks.",
+    "documentMetadata": "parent_commit is the root selected commit; source_commit is the exact leaf commit; source_repo_id, source_path and pin_chain attest each immutable parent-to-child hop. Root repo/channel/global path namespace remains unchanged.",
+    "registryAdditions": "gitlinks=[{path,repo,repoId}], indexVerifier=<approved provider id>, requiredIndexes=[keyword|vector]. Absolute offline cache paths and every nested mount require registration; these fields are part of approval scopeHash. No real registry is configured."
+  },
+  "indexVerification": {
+    "implementation": "Pure IndexVerifier plus an implemented native keyword first-add candidate provider. Runtime production deployment/acceptance remain false; stock official API metadata and standalone SQLite observer remain non-production.",
+    "proofSchema": "schemaVersion=1, providerId, exact binding, fresh observedAt, state, taskState, taskId where applicable, documentVersion, contentSHA256, independent documentChunkCount and every approved index's complete versioned chunk ID/hash set; metadata-only reuse also requires basisReceiptHash.",
+    "completion": "All operations require ready evidence. A content-affecting update requires actual version greater than the previous persistent receipt, including UNKNOWN publish recovery. Index receipt, mapping, operation done and batch checkpoint commit atomically in ledger schema 3. Old ledger schemas are rejected, not migrated automatically.",
+    "recovery": "PENDING permits read-only polling; UNKNOWN blocks and never blindly retries a write. Deletion requires exact task terminal proof and absence from all approved indexes; document 404 alone is insufficient.",
+    "productionReady": false
+  },
+  "productionGate": "Approved first trial scope already authorized; actual two new empty keyword-only KB IDs, Owner local independent scoped keys, consistent service backup and supported short-restart access, native capabilities/real non-synthetic receipts and official CLI bounded keyword retrieval must succeed. No scheduler/autostart.",
+  "officialAPIObserver": {
+    "providerId": "official-api-metadata-observer",
+    "implementation": "official_api_observer.OfficialAPIProvider",
+    "productionReady": false,
+    "routes": [
+      "GET /api/v1/knowledge/:id",
+      "GET /api/v1/chunks/:knowledge_id?page=&page_size="
+    ],
+    "upstreamCommit": "3e8b0bfc80b845b2d4b2ed683994748741450a97",
+    "observations": "Document version/metadata, paged database text chunks, total and index_status; checks scope, pagination and detectable observation races. No real service request made.",
+    "missing": "Actual keyword/vector retrieval-store inventory and knowledge deletion task terminal evidence are not exposed by these APIs. No READY, index receipt, checkpoint or production writer from this provider."
+  },
+  "sqliteKeywordObserver": {
+    "providerId": "sqlite-keyword-canary-observer",
+    "implementation": "sqlite_keyword_observer.SQLiteKeywordProvider",
+    "productionReady": false,
+    "databasePath": "Explicit constructor argument only; no default runtime DB or registry integration.",
+    "snapshot": "mode=ro + query_only + one transaction; no schema initialization/migration.",
+    "requiredNativeContract": [
+      "sync_keyword_receipts with exact operation/generation/task binding and cumulative owned rowids",
+      "preinstalled lite_embeddings_fts_vocab(instance)",
+      "keyword mutations propagate errors and atomically commit completion receipt"
+    ],
+    "attestation": "Actual complete source/chunk/revision/input and term/column/offset postings comparison, including metadata columns, retired rowids and exact deletion terminal. READY receipts are synthetic until separately approved native integration.",
+    "canaryLimits": "keyword only; no derived source/vector; at most128 active rows,512 owned rows/history; exact frozen Go Unicode15 Han/WhiteSpace/P/S table predicates with unicode61 FTS postings; surrogates fail closed.",
+    "ledgerReceiptAddition": "Optional backendInventoryHash is included in receiptHash; legacy receipts without the field remain compatible.",
+    "acceptance": "Temporary synthetic SQLite/FTS, immutable source fixture and in-memory REST; no running DB, loopback, credential or model request."
+  },
+  "nativeCanary": {
+    "providerId": "native-keyword-canary-v1",
+    "implementation": "native_canary_adapter.NativeCanaryAdapter",
+    "codeContractProductionAdapter": true,
+    "runtimeDeployed": false,
+    "productionAcceptance": false,
+    "source": "shidai3; committed root AGENTS.md and AI_CONTEXT.md only; frozen HEAD/cached official root commit; no registered child mount in first trial",
+    "targets": [
+      "shidai3-dev-canary",
+      "shidai3-official-canary"
+    ],
+    "exactWriterNames": [
+      "shidai3-dev-canary-writer",
+      "shidai3-official-canary-writer"
+    ],
+    "capabilities": [
+      "ingest",
+      "retrieve"
+    ],
+    "fullAccess": false,
+    "routes": {
+      "POST": "/api/v1/knowledge-bases/:id/sync-canary/operations",
+      "GET": [
+        "/api/v1/knowledge-bases/:id/sync-canary/capabilities",
+        "/api/v1/knowledge-bases/:id/sync-canary/operations/:operation_id"
+      ]
+    },
+    "operationStates": [
+      "queued",
+      "running",
+      "done",
+      "failed"
+    ],
+    "firstRound": "Exactly two approved add operations per target; full desired binding/content hashes fixed in expiring nonsecret service policy; no update/delete/stock writes/vector queries/model calls.",
+    "durability": "Native queued task precedes reply; Process commits document/chunk/FTS/receipt atomically. Lost reply queries exact operationId; payload conflict, wrong ownership or mutated FTS blocks. Resume covers only adopted canary instance.",
+    "observe": "Read-only transaction verifies complete current native rows, version/hash/chunk and all five contentless FTS columns/postings; full inventory digest in receipt. No repair during observation.",
+    "runtimeIsolation": "Policy enabled requires DB_DRIVER=sqlite, RETRIEVE_DRIVER=sqlite, AUTO_MIGRATE=false, exact empty REDIS_ADDR. Non-migrating existing SQLite schema, no historical DB stores/lazy engines, seven maintenance/recovery entries paused, old IM/trace/docreader/Neo4j/extensions startup disabled.",
+    "schedule": "Refuses scheduleEnabled=true and nonzero interval. Synthetic scheduler tests only; recurring native sync needs a separately authorized protocol extension and actual runtime acceptance.",
+    "handoff": "service-candidate/Owner-Canary-Handoff.md"
+  }
+}

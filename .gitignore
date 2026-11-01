@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+sources.json
+*.sync.sqlite3
+*.sync.sqlite3-*
+*.offline.sqlite3
+*.offline.sqlite3-*

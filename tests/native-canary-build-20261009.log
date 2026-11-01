@@ -1,0 +1,18 @@
+ok  	github.com/Tencent/WeKnora/internal/synccanary	2.400s
+?   	github.com/Tencent/WeKnora/cmd/sync-canary-fixture	[no test files]
+ok  	github.com/Tencent/WeKnora/internal/handler	2.143s
+ok  	github.com/Tencent/WeKnora/internal/router	2.038s [no tests to run]
+ok  	github.com/Tencent/WeKnora/internal/container	2.712s
+ok  	github.com/Tencent/WeKnora/internal/middleware	1.805s
+ok  	github.com/Tencent/WeKnora/internal/types	1.738s
+ok  	github.com/Tencent/WeKnora/internal/router	2.131s
+ok  	github.com/Tencent/WeKnora/internal/handler	1.418s
+ok  	github.com/Tencent/WeKnora/internal/application/repository	2.022s
+ok  	github.com/Tencent/WeKnora/internal/application/service	2.125s
+ok  	github.com/Tencent/WeKnora/internal/agent/tools	1.423s
+ok  	github.com/Tencent/WeKnora/internal/application/repository/retriever/sqlite	1.913s
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          6C46EEBA2DDD7AC7C6E2FD96F93D551C4839F47C64255369D83CEE68068977DC       C:\Users\33272\AppData\Local\Tem…
+

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "protocol": "D:/code/shidai3/P8000/knowledge-sync/protocol-v1.json",
+  "destinationThread": "01a11ea6-0565-731a-8d34-cc67f2f0a086",
+  "destinationTitle": "完成工具与Agent基建",
+  "attempted": true,
+  "deliveryConfirmed": false,
+  "result": "invalid turn/start params: AbsolutePathBuf deserialized without a base path",
+  "retried": false,
+  "remaining": "Parent can relay the saved protocol to the current Companion worker; message delivery was not confirmed.",
+  "scope": "Read-only protocol handoff, no Companion source/deploy/restart authorization added."
+}
